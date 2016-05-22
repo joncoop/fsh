@@ -1,18 +1,13 @@
-<nav class="light-blue lighten-1" role="navigation">
-  <div class="nav-wrapper container"><a id="logo-container" href="/index.html" class="brand-logo">J+M</a>
-    <ul class="right hide-on-med-and-down">
-      {% for page in site.pages %}
-      {% if page.title %}
-      <li><a class="page-link" href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a></li>
-      {% endif %}
-      {% endfor %}
-    </ul>
+<nav class="light-blue" role="navigation">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">FSH Logo</a>
 
-    <ul id="nav-mobile" class="side-nav">
-      {% for page in site.pages %}
-      <li><a href="#">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#">Service</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
