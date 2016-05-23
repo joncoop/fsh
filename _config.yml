@@ -1,8 +1,8 @@
 # Site settings
 title: Jekyll + Materialize = <3
 description: "Just when you didn't think Jekyll could get any better, it got materialized."
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-destination: ../site/
+url: "https://joncoop.github.io/" # the base hostname & protocol for your site
+destination: ../fsh/
 
 # Build settings
 markdown: kramdown
