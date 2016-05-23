@@ -1,8 +1,7 @@
 # Site settings
 title: Florida Suncoast Helicopters
 description: "Just when you didn't think Jekyll could get any better, it got materialized."
-baseurl: "/fsh" # the subpath of your site, e.g. /blog
-url: "https://joncoop.github.io"
+url: "https://joncoop.github.io/fsh"
 
 # Build settings
 markdown: kramdown
