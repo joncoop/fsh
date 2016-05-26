@@ -95,13 +95,13 @@ $element-top-margin: $gutter-width/3 !default;
 $element-bottom-margin: ($gutter-width*2)/3 !default;
 
 /*** Navbar ***/
-$navbar-height: 64px !default;
-$navbar-height-mobile: 64px !default;
+$navbar-height: 80px !default;
+$navbar-height-mobile: 80px !default;
 $navbar-font-color: color('teal', 'base') !default;
 $navbar-brand-font-size: 2.1rem !default;
 
 /*** SideNav ***/
-$sidenav-bg-color: #fff !default;
+$sidenav-bg-color: #eee !default;
 $sidenav-padding-right: 15px !default;
 
 /*** Photo Slider ***/
