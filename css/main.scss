@@ -7,17 +7,9 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "materialize";
 
-/* for sticky footer (doesn't seem to work)*/
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  margin-top: 0.5rem;
 }
-
-main {
-  flex: 1 0 auto;
-}
-/* end sticky footer code */
 
 /* custom post styles */
 .page-title {
