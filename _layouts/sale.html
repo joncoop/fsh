@@ -4,5 +4,40 @@ layout: page
 
 <p>{{ page.description }}</p>
 
+<div class="row">
+  <div class="col s12 m4">
+    <h2>General</h2>
+    <table>
+      <tr>
+        <th>Make:</th>
+        <td>{{ page.make }}</td>
+      </tr>
+      <tr>
+        <th>Model:</th>
+        <td>{{ page.model }}</td>
+      </tr>
+      <tr>
+        <th>Year:</th>
+        <td>{{ page.year }}</td>
+      </tr>
+      <tr>
+        <th>Condition:</th>
+        <td>{{ page.condition }}</td>
+      </tr>
+      <tr>
+        <th>Hours:</th>
+        <td>{{ page.hours }}</td>
+      </tr>
+      <tr>
 
-{{ page.make }}
+        <th>Price:</th>
+        <td>{{ page.price }}</td>
+      </tr>
+      <tr>
+    </table>
+  </div>
+
+  <div class="col s12 m8">
+    <img src="http://dummyimage.com/800x450/888/fff" width="100%" alt="product image">
+  </div>
+</div>
