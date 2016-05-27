@@ -3,7 +3,7 @@ title: Florida Suncoast Helicopters
 description: "Just when you didn't think Jekyll could get any better, it got materialized."
 url: "https://joncoop.github.io/fsh"
 collections:
-  sale:
+  inventory:
     output: true
 
 # Build settings
