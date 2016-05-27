@@ -2,8 +2,6 @@
 layout: page
 ---
 
-<p>{{ page.description }}</p>
-
 <div class="row">
   <div class="col s12 m4">
     <h2>General</h2>
@@ -38,6 +36,9 @@ layout: page
   </div>
 
   <div class="col s12 m8">
-    <img src="http://dummyimage.com/800x450/888/fff" width="100%" alt="product image">
+    <img src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}" width="100%" alt="product image">
   </div>
+
+  <p>{{ page.description }}</p>
+
 </div>
