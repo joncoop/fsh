@@ -3,8 +3,11 @@ layout: page
 ---
 
 <div class="row">
-  <div class="col s12 m4">
-    <h2>General</h2>
+  <div class="col s12 m6">
+    <img src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}" width="100%" alt="product image">
+  </div>
+
+  <div class="col s12 m6">
     <table>
       <tr>
         <th>Make:</th>
@@ -27,18 +30,41 @@ layout: page
         <td>{{ page.hours }}</td>
       </tr>
       <tr>
-
         <th>Price:</th>
         <td>{{ page.price }}</td>
       </tr>
       <tr>
+        <th>Exterior:</th>
+        <td>{{ page.exterior }}</td>
+      </tr>
+      <tr>
+        <th>Interior:</th>
+        <td>{{ page.interior }}</td>
+      </tr>
+      <tr>
+        <th>Avionics</th>
+        <td>
+          <ul>
+            {% for item in page.avionics-equipment %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Options</th>
+        <td>
+          <ul>
+            {% for item in page.options %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </td>
+      </tr>
     </table>
   </div>
+</div>
 
-  <div class="col s12 m8">
-    <img src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}" width="100%" alt="product image">
-  </div>
-
+<div class="row">
   <p>{{ page.description }}</p>
-
 </div>
