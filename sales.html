@@ -6,17 +6,32 @@ title: Sales
 <p>Florida Suncoast Helicopters, an authorized Robinson Helicopter dealership, will provide you with knowledgeable service as you look to purchase a new or pre-owned helicopter. In addition to selling the Robinson R22 and R44, the company is Florida’s only authorized dealer of the new R66. Since becoming an authorized Robinson Helicopter dealership, Florida Suncoast Helicopters have grown to become Robinson Helicopter’s #1 dealer. Please contact us to talk about your new helicopter today!</p>
 
 <h2>Current Inventory</h2>
-<ul>
+
+<div class="row">
   {% for page in site.inventory %}
-    <li><a href="{{ site.github.url }}{{ page.url }}">{{ page.title }}</a></li>
+    <div class="col s12 m4">
+      <div class="card medium">
+        <div class="card-image">
+          <img src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}">
+          <span class="card-title">{{ page.title }}</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ site.github.url }}{{ page.url }}">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
   {% endfor %}
-</ul>
+</div>
 
 <h2>FAQ</h2>
 
   <ul class="collapsible" data-collapsible="accordion">
     <li>
-      <div class="collapsible-header"><i class="material-icons">add</i>What kind of helicopter is best for me?</div>
+      <div class="collapsible-header"><i class="material-icons">add</i>Which helicopter is best for me?</div>
       <div class="collapsible-body">
         <h3>R66 Turbine</h3>
         <p>The premier helicopter Robinson offers is the Robinson R66 Turbine. The aircraft is powered by the Rolls Royce RR330 Engine which offers increased reserve power and improved high altitude performance. This smooth running aircraft can seat up to 5 people and has large baggage compartment and of course the very popular upgrade option of auto pilot. The R66 Turbine also comes in a Marine version with pop-out floats.</p>
@@ -48,7 +63,7 @@ title: Sales
       </div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="material-icons">add</i>Who will train me in my helicopter?</div>
+      <div class="collapsible-header"><i class="material-icons">add</i>Who will train me?</div>
       <div class="collapsible-body">
         <p>Florida Suncoast Helicopters is a helicopter flight training school. This is another negotiable point if you are purchasing a helicopter through us. Please call for more detailed information.</p>
       </div>
