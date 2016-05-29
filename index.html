@@ -2,25 +2,28 @@
 layout: default
 ---
 
-  <div id="index-banner" class="parallax-container">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <br><br>
-          <h1 class="header center teal-text text-lighten-2">See the Sarasota Coast</h1>
-          <div class="row center">
-            <h5 class="header col s12 white-text darken-1">30-minute and 1-hour tours available</h5>
-          </div>
-          <div class="row center">
-            <a href="#!" class="btn-large waves-effect waves-light teal lighten-1">Book Now</a>
-            <h4><a href="tel:+1-941-355-1259" class="teal-text text-lighten-2" itemprop="tel">941-355-1259</a></h4>
-          </div>
-          <br><br>
+<!-- Banner section -->
+<div id="index-banner" class="parallax-container">
+    <div class="section">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">See the Sarasota Coast</h1>
+        <div class="row center">
+          <h5 class="header col s12 white-text darken-1">30-minute and 1-hour tours available</h5>
         </div>
+        <div class="row center">
+          <a href="#!" class="btn-large waves-effect waves-light teal lighten-1">Book Now</a>
+          <h4><a href="tel:+1-941-355-1259" class="teal-text text-lighten-2" itemprop="tel">941-355-1259</a></h4>
+        </div>
+        <br><br>
       </div>
-    <div class="parallax"><img src="{{ site.github.url }}/img/in_flight.jpg" alt="background image 1"></div>
-  </div>
+    </div>
+  <div class="parallax"><img src="{{ site.github.url }}/img/in_flight.jpg" alt="background image 1"></div>
+</div>
 
 
+<!-- Services section -->
+<div class="section">
   <div class="container">
     <div class="row">
       <div class="col s12 m6 l3">
@@ -51,10 +54,16 @@ layout: default
         </div>
       </div>
     </div>
+  </div>
+</div>
 
+
+<!-- Map section -->
+<div class="section">
+  <div class="container">
     <div class="row">
       <div class="col s12 m6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3542.1133496419047!2d-82.5531913!3d27.403393!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c33fd450477c33%3A0x6959bc0701093519!2sFlorida+Suncoast+Helicopters!5e0!3m2!1sen!2sus!4v1464462289887" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        {% include map.html %}
       </div>
 
       <div class="col s12 m6">
@@ -62,8 +71,12 @@ layout: default
       </div>
     </div>
   </div>
+</div>
 
-  <div class="container light-gray">
+
+<!-- Contact section -->
+<div class="section">
+  <div class="container">
       <div class="row">
         <div class="col s12 m4">
           <h4>Contact us today</h4>
@@ -111,17 +124,18 @@ layout: default
 
     </div>
   </div>
+</div>
 
-
-  <div class="parallax-container hide-on-med-and-down">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <div class="row center">
-          <h5 class="header col s12 white-text darken-1">We are Florida's only authorized R22, R44, and R66 dealer and service center.</h5>
-        </div>
-      </div>
+<!-- Paralax image section-->
+<div class="parallax-container hide-on-med-and-down">
+  <div class="section">
+    <div class="container">
       <br><br>
+      <div class="row center">
+        <h5 class="header col s12 white-text darken-1">We are Florida's only authorized R22, R44, and R66 dealer and service center.</h5>
+      </div>
     </div>
-    <div class="parallax"><img src="{{ site.github.url }}/img/in_hangar.jpg" alt="Unsplashed background img 3"></div>
+    <br><br>
   </div>
+  <div class="parallax"><img src="{{ site.github.url }}/img/in_hangar.jpg" alt="Our Fleet"></div>
+</div>
