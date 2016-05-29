@@ -79,6 +79,11 @@ footer {
 
 
 /*** Special Content ***/
+// parallax
+.parallax-full-mobile {
+    height: calc(100vh - 90px);
+}
+
 // social media icons
 .social-icon {
   margin-right: 0.75rem;
