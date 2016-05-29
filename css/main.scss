@@ -7,8 +7,21 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "materialize";
 
-body {
-  margin-top: 0.5rem;
+/* Overrides */
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 90%;
+}
+@media #{$medium-and-up} {
+  .container {
+    width: 90%;
+  }
+}
+@media #{$large-and-up} {
+  .container {
+    width: 90%;
+  }
 }
 
 /* custom post styles */
@@ -27,7 +40,6 @@ body {
 }
 
 /* Sticky footer */
-
 body {
   display: flex;
   min-height: 100vh;
@@ -36,6 +48,11 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+
+/* Main logo */
+.main-logo {
+  margin: 7px 0;
 }
 
 /* Social media icons */
