@@ -7,7 +7,8 @@
 @import "materialize";
 
 
-/* Overrides */
+/*** Overrides ***/
+// containers
 .container {
   margin: 0 auto;
   max-width: 1600px;
@@ -30,17 +31,15 @@
 }
 
 
-/* custom post styles */
-.page-title {
-  font-size: 2.6rem
-}
-
-.sub-heading {
-  font-size: 2.0rem;
+/*** Header ***/
+// Main Logo
+.main-logo {
+  margin: 7px 0;
 }
 
 
-/* Sticky footer */
+/*** Footer ***/
+// sticky footer
 body {
   display: flex;
   min-height: 100vh;
@@ -51,13 +50,24 @@ main {
   flex: 1 0 auto;
 }
 
+footer {
+  color: #bdbdbd;  // grey lighten-1
 
-/* Main logo */
-.main-logo {
-  margin: 7px 0;
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff; // white
+  }
+
+  a:link, a:visited, a:hover, a:active {
+    color: #fff; // white
+  }
+
+  a:hover {
+    border-bottom: 1px solid #fff; // white
+  }
 }
 
-/* Social media icons */
+/*** Special Content ***/
+// social media icons
 .social-icon {
-  margin-right: 10px;
+  margin-right: 0.75rem;
 }
