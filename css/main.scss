@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*** Footer ***/
+footer.page-footer {
+  margin-top: 0;
+}
+
 // sticky footer
 body {
   display: flex;
