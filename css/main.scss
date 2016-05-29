@@ -3,9 +3,9 @@
 ---
 
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "materialize";
+
 
 /* Overrides */
 .container {
@@ -13,6 +13,7 @@
   max-width: 1600px;
   width: 90%;
 }
+
 @media #{$medium-and-up} {
   .container {
     width: 90%;
@@ -24,6 +25,11 @@
   }
 }
 
+.parallax-container {
+  height: 600px;
+}
+
+
 /* custom post styles */
 .page-title {
   font-size: 2.6rem
@@ -33,11 +39,6 @@
   font-size: 2.0rem;
 }
 
-/* custom post styles */
-
-.parallax-container {
-  height: 600px;
-}
 
 /* Sticky footer */
 body {
@@ -49,6 +50,7 @@ body {
 main {
   flex: 1 0 auto;
 }
+
 
 /* Main logo */
 .main-logo {
