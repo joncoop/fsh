@@ -40,6 +40,16 @@
   }
 }
 
+@media #{$medium-and-down} {
+  .col {
+    margin-bottom: 2.0rem;
+  }
+
+  .col:last-child {
+    margin-bottom: 0;
+  }
+}
+
 
 /*** Header ***/
 // main logo
@@ -69,9 +79,6 @@ body {
 main {
   flex: 1 0 auto;
 }
-
-// typography
-
 
 // text colors
 footer {
