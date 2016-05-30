@@ -149,8 +149,9 @@ layout: default
               </div>
 
               <!-- hidden fields for formspree -->
-              <input type="hidden" name="_subject" value="New submission!" />
-              <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_subject" value="New submission from FSH">
+              <input type="text" name="_gotcha" style="display:none">
+              <input type="hidden" name="_next" value="{{ site.github.url }}/thanks.html" />
 
               <button class="btn waves-effect waves-light" type="submit" name="action">Submit
                 <i class="material-icons right">send</i>
