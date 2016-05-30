@@ -28,6 +28,16 @@
 
 .parallax-container {
   height: 500px;
+
+  h2 {
+    font-size: 4.0rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: 3.0rem;
+    }
+  }
 }
 
 
@@ -58,6 +68,19 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+
+// typography
+main {
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 2.0rem;
+    }
+
+    h2 {
+      font-size:1.5rem;
+    }
+  }
 }
 
 // text colors
