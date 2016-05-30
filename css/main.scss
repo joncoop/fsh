@@ -118,3 +118,11 @@ footer {
   margin-right: 0.75rem;
   opacity: 1.0;
 }
+
+
+/*** for really small phones ***/
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 85%;
+  }
+}
