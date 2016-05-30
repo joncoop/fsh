@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col s12 m6">
+    <h2>Get in touch</h2>
+    <p class="light">You can contact us via the form on this page, by phone, or by email. We can't wait to hear from you!</p>
+    <p class="light">You can also send email to <a href="mailto:info@floridasuncoasthelicopters.com">info@floridasuncoasthelicopters.com</a>.</p>
+
+    <a class="waves-effect waves-light btn" href="tel:+1-941-355-1259"><i class="material-icons left">phone</i>941-355-1259</a>
+    <br><br>
+
+    <h5>Connect with us</h5>
+    <a href="https://www.facebook.com/Florida-Suncoast-Helicopters-167594603293714/"><img class="social-icon" src="{{ site.github.url }}/img/facebook.png" alt="Follow on Facebook"></a>
+    <a href="https://www.instagram.com/fshelicopters/"><img class="social-icon" src="{{ site.github.url }}/img/instagram.png" alt="Follow on Instagram"></a>
+    <a href="https://twitter.com/suncoastheli"><img class="social-icon" src="{{ site.github.url }}/img/twitter.png" alt="Follow on Twitter"></a>
+    <br><br>
+  </div>
+
+  <div class="col s12 m6 grey lighten-5 z-depth-2">
+    <div class="section">
+      <form action="https://formspree.io/{{ site.email }}" method="post">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate" name="name">
+          <label for="icon_prefix">Name</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate" name="phone">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">email</i>
+          <input id="icon_telephone" type="email" class="validate" name="email">
+          <label for="icon_email">Email</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="icon_message" class="materialize-textarea" name="message"></textarea>
+          <label for="icon_message">Your message</label>
+        </div>
+
+        <!-- hidden fields for formspree -->
+        <input type="hidden" name="_subject" value="New submission from FSH">
+        <input type="text" name="_gotcha" style="display:none">
+        <input type="hidden" name="_next" value="{{ site.github.url }}/thanks.html" />
+
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
