@@ -33,7 +33,7 @@
     font-size: 4.0rem;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 760px) {
     h2 {
       font-size: 3.0rem;
     }
@@ -104,7 +104,8 @@ footer {
 /*** Special Content ***/
 // parallax
 .parallax-full {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 90px);
+    max-height: 700px;
 }
 
 // social media icons
