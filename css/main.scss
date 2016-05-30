@@ -121,6 +121,10 @@ img.small_square {
   width: 160px;
 }
 
+figure {
+  margin: 0 0 1.0rem 0;
+}
+
 /*** for small phones ***/
 @media screen and (max-width: 419px) {
   h1 {
