@@ -3,6 +3,24 @@ layout: page
 title: Contact Us
 ---
 
-Contact information goes here.
+<div class="row">
+  <div class="col s12 m6">
+    <p class="light">You can contact us via the form on this page, by phone, or by sending email to <a href="mailto:info@floridasuncoasthelicopters.com">info@floridasuncoasthelicopters.com</a>. We can't wait to hear from you!</p>
 
-{% include contact_form.html %}
+    <a class="waves-effect waves-light btn" href="tel:+1-941-355-1259"><i class="material-icons left">phone</i>941-355-1259</a>
+    <br><br>
+
+    <h5>Connect with us</h5>
+    <a href="https://www.facebook.com/Florida-Suncoast-Helicopters-167594603293714/"><img class="social-icon" src="{{ site.github.url }}/img/facebook.png" alt="Follow on Facebook"></a>
+    <a href="https://www.instagram.com/fshelicopters/"><img class="social-icon" src="{{ site.github.url }}/img/instagram.png" alt="Follow on Instagram"></a>
+    <a href="https://twitter.com/suncoastheli"><img class="social-icon" src="{{ site.github.url }}/img/twitter.png" alt="Follow on Twitter"></a>
+    <a href="https://www.youtube.com/user/srqhelicopters"><img class="social-icon" src="{{ site.github.url }}/img/youtube.png" alt="Subscribe on YouTube"></a>
+    <br><br>
+  </div>
+
+  <div class="col s12 m6 grey lighten-5 z-depth-2">
+    <div class="section">
+        {% include contact_form.html %}
+    </div>
+  </div>
+</div>
