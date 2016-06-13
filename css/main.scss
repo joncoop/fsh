@@ -6,6 +6,8 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "materialize";
 
+// Import web fonts
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
 /*** Overrides ***/
 // containers
@@ -61,6 +63,7 @@
 /*** Main Content ***/
 h1, h2 {
   color: #1a237e; // indigo darken-4
+  font-family: 'Fjalla One', sans-serif;
 }
 
 h3, h4, h5, h6 {
