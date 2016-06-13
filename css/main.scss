@@ -42,6 +42,12 @@
   }
 }
 
+.slider {
+  h2 {
+    font-size: 2.8rem;
+  }
+}
+
 @media #{$medium-and-down} {
   .col {
     margin-bottom: 2.0rem;
