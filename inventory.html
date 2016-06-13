@@ -1,0 +1,23 @@
+---
+layout: page
+title: Current Inventory
+---
+
+<div class="row">
+  {% for page in site.inventory %}
+    <div class="col s12 m4">
+      <div class="card medium">
+        <div class="card-image">
+          <img src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}">
+          <span class="card-title">{{ page.title }}</span>
+        </div>
+        <div class="card-content">
+          <p>{{ page.short-description }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ site.github.url }}{{ page.url }}">View Details</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
