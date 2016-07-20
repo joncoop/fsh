@@ -26,6 +26,29 @@ title: Aircraft Sales
 
 <div class="row">
   <div class="col s12">
+    <h3>Current Inventory</h3>
+  </div>
+
+  {% for page in site.inventory %}
+    <div class="col s12 m4">
+      <div class="card medium">
+        <div class="card-image">
+          <img src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}">
+          <span class="card-title">{{ page.title }}</span>
+        </div>
+        <div class="card-content">
+          <p>{{ page.short-description }}</p>
+        </div>
+        <div class="card-action">
+          <a href="{{ site.github.url }}{{ page.url }}">View Details</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="row">
+  <div class="col s12">
     <h3>The Robinson Line</h3>
 
     <p>When choosing a helicopter, you need to know how you will be using your helicopter and where you will be flying.</p>

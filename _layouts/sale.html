@@ -9,15 +9,11 @@ layout: page
         <img class="materialboxed z-depth-2" src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}" width="100%" alt="product image">
       </div>
 
-      <div class="col s4">
-        <img class="materialboxed z-depth-2" src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}" width="100%" alt="product image">
-      </div>
-      <div class="col s4">
-        <img class="materialboxed z-depth-2" src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}" width="100%" alt="product image">
-      </div>
-      <div class="col s4">
-        <img class="materialboxed z-depth-2" src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}" width="100%" alt="product image">
-      </div>
+      {% for item in page.secondary-images %}
+        <div class="col s4">
+          <img class="materialboxed z-depth-2" src="{{ site.github.url }}/img/for-sale/{{ item }}" width="100%" alt="product image">
+        </div>
+      {% endfor %}
     </div>
   </div>
 
@@ -36,7 +32,7 @@ layout: page
         <td>{{ page.year }}</td>
       </tr>
       <tr>
-        <th>Condition:<medium/th>
+        <th>Condition:</th>
         <td>{{ page.condition }}</td>
       </tr>
       <tr>
@@ -56,31 +52,9 @@ layout: page
         <td>{{ page.interior }}</td>
       </tr>
       <tr>
-        <th>Avionics</th>
-        <td>
-          <ul>
-            {% for item in page.avionics-equipment %}
-              <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <th>Options</th>
-        <td>
-          <ul>
-            {% for item in page.options %}
-              <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        </td>
+        <th>Details:</th>
+        <td>{{ page.long-description }}/td>
       </tr>
     </table>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col s12">
-    <p>{{ page.long-description }}</p>
   </div>
 </div>
