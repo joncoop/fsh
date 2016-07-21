@@ -6,12 +6,12 @@ layout: page
   <div class="col s12 m6">
     <div class="row">
       <div class="col s12">
-        <img class="materialboxed z-depth-2" src="{{ site.github.url }}/img/for-sale/{{ page.main-image }}" width="100%" alt="product image">
+        <img class="materialboxed z-depth-2" src="{{ site.github.url }}/{{ page.main-image }}" width="100%" alt="product image">
       </div>
 
       {% for item in page.secondary-images %}
         <div class="col s4">
-          <img class="materialboxed z-depth-2" src="{{ site.github.url }}/img/for-sale/{{ item }}" width="100%" alt="product image">
+          <img class="materialboxed z-depth-2" src="{{ site.github.url }}/{{ item }}" width="100%" alt="product image">
         </div>
       {% endfor %}
     </div>
@@ -53,7 +53,7 @@ layout: page
       </tr>
       <tr>
         <th>Details:</th>
-        <td>{{ page.long-description }}/td>
+        <td>{{ page.long-description }}</td>
       </tr>
     </table>
   </div>
