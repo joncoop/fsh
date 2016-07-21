@@ -15,8 +15,8 @@ short-description: 2013 R66 Turbine
 long-description: |
   Air conditioning, Dual coms, Garmin 796 GPS, 4 Bose headsets, Artificial Horizon, Vertical Compass,  25 amp battery, 406 ELT, Transponder w/ Mode C.Optional  Dart emergency float system $775,000
 
-interior: Tan leather interior
-exterior:  Black with Viper red trim
+interior: Gray leather interior
+exterior: Black with silver trim
 
 main-image: img/for-sale/tim66a.jpg
 
