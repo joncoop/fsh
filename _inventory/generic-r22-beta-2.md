@@ -5,7 +5,7 @@ make: Robinson
 model: R22 Beta II
 year: 2016
 condition: New
-Hours: 0
+hours: 0
 price: 274,000
 seats: 2
 
