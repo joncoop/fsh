@@ -1,161 +1,19 @@
----
-layout: default
----
+<html>
 
-<!-- Banner section -->
-<!--
-<div id="index-banner" class="parallax-container parallax-full valign-wrapper row">
-    <div class="section col s12 valign">
-      <div class="container center">
-        <div class="row">
-          <h2 class="header teal-text text-lighten-2 hide-mobile-landscape">See the Sarasota Coast</h2>
-        </div>
+<div id="instafeed"></div>
 
-        <div class="row">
-          <a href="{{ site.github.url }}/tours.html" class="btn-large waves-effect waves-light teal lighten-1">Book a tour now</a>
-          <h4><a href="tel:+1-941-355-1259" class="teal-text text-lighten-2" itemprop="tel">941-355-1259</a></h4>
-        </div>
+<!-- Instafeed -->
+/* Show the latest photos from Instagram
+ * https://github.com/stevenschobert/instafeed.js
+ */
+<script src="js/instafeed.min.js"></script>
 
-        <a class="hide-mobile-landscape" href="#fly"><i class="material-icons large grey-text text-lighten-2">expand_more</i></a>
-      </div>
-    </div>
-  <div class="parallax"><img src="{{ site.github.url }}/img/in_flight.jpg" alt="background image 1"></div>
-</div>
--->
+<script type="text/javascript">
+    var feed = new Instafeed({
+        accessToken: '687620506.4455cee.3823256713274efab9c7e9e683251315',
+        clientId: '4455ceec894a4597a65aa7f5a99ccbe2'
+    });
+    feed.run();
+</script>
 
-<!-- Slider section -->
-<!--
-<div class="slider">
-  <ul class="slides">
-    <li>
-      <img src="{{ site.github.url }}/img/fleet_in_hangar.jpg" alt="Sales background">
-      <div class="caption left-align">
-        <h2 class="header red-text text-accent-4">Robinson’s #1 dealer</h2>
-        <h4 class="white-text text-lighten-2">Call to action!</h4>
-      </div>
-    </li>
-    <li>
-      <img src="{{ site.github.url }}/img/service_background.jpg" alt="Service background">
-      <div class="caption center-align">
-        <h2 class="header indigo-text text-darken-4">Factory-authorized service</h2>
-        <h4 class="white-text text-lighten-2">Call to action!</h4>
-      </div>
-    </li>
-    <li>
-      <img src="{{ site.github.url }}/img/in_flight.jpg" alt="Tours Background">
-      <div class="caption right-align">
-        <h2 class="header teal-text text-lighten-2">Come fly with us!</h2>
-        <h4 class="white-text text-lighten-2">Tours, Training, Photography</h4>
-      </div>
-    </li>
-  </ul>
-</div>
--->
-
-<!-- Fly section -->
-<div id="fly" class="section">
-  <div class="container">
-    <h1 class="center">Fly with us</h1>
-      <div class="row">
-        <div class="col s12 m4 center section">
-          <div class="section">
-            <img class="small_square responsive-img" src="{{ site.github.url }}/img/tours_320x320.jpg" alt="Scenic tours">
-          </div>
-          <h4 class="center">Scenic Tours</h4>
-          <p class="light">Take flight along Sarasota’s coast to see its spectacular architecture and world-famous beaches, and marine wildlife.</p>
-          <a class="waves-effect waves-light btn" href="{{ site.github.url }}/tours.html">Book Now</a>
-        </div>
-
-        <div class="col s12 m4 center section">
-          <div class="section">
-            <img class="small_square responsive-img" src="{{ site.github.url }}/img/training_320x320.jpg" alt="Training">
-          </div>
-          <h4 class="center">Pilot Training</h4>
-          <p class="light">Whether interested in beginning a career in rotorcraft or aquiring an add-on rating,  FSH would like to help you achieve that goal.</p>
-          <a class="waves-effect waves-light btn" href="{{ site.github.url }}/training.html">Learn to fly</a>
-        </div>
-
-        <div class="col s12 m4 center section">
-          <div class="section">
-            <img class="small_square responsive-img" src="{{ site.github.url }}/img/photography_320x320.jpg" alt="Aerial photography">
-          </div>
-          <h4>Aerial Photography</h4>
-          <p class="light">No matter what your needs are, our experienced pilots will ensure you get the most professional results possible.</p>
-          <a class="waves-effect waves-light btn" href="{{ site.github.url }}/photography.html">Learn more</a>
-        </div>
-    </div>
-  </div>
-</div>
-
-<!-- Sales & Service  section-->
-<div class="section grey lighten-3">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <h2>Sales &amp; Service</h2>
-        <p class="light">Florida Suncoast Helicopters, an authorized Robinson Helicopter dealership, will provide you with knowledgeable service as you look to purchase a new or pre-owned helicopter. In addition to selling the Robinson R22 and R44, the company is Florida’s only authorized dealer of the new R66. Please contact us to talk about your new helicopter today!</p>
-        <p class="light">We are also an FAA certified 145 Repair Center and authorized Robinson Service Center. Our highly-trained, certified mechanics are here to help you with all your maintenance needs. Our comprehensive inspections and maintenance leave our customers satisfied with a safe, clean, and well-maintained aircraft after every job. Please contact us for more information and pricing.</p>
-      </div>
-
-      <div class="col s12 m6 hide-on-small-only">
-        <figure>
-          <img class="responsive-img z-depth-2" src="{{ site.github.url }}/img/blue_r66_service_1200x800.jpg" alt="The new R66">
-          <figcaption>We are Florida’s only authorized dealer of the new R66.</figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Map section -->
-<div class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <h2>Come for a visit</h2>
-        <p class="light">Florida Suncoast Helicopters is fortunate to be operating at Sarasota-Bradenton International Airport. Our location in Southwest Florida allows for convenient service, year-round tours, training, and more. </p>
-        <p class="light">
-          Rectrix North<br>
-          Sarasota-Bradenton Intl. Airport<br>
-          1244 Clyde Jones Rd<br>
-          Sarasota, FL 34243
-        </p>
-        <a class="waves-effect waves-light btn" href="https://goo.gl/maps/56PhyUbGqqH2"><i class="material-icons left">place</i>Get Directions</a>
-      </div>
-
-      <div class="col s12 m6 hide-on-small-only">
-        {% include map.html %}
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Contact section -->
-<div class="section grey lighten-3">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <h2>Get in touch</h2>
-        <p class="light">You can contact us via the form on this page, by phone, or by sending email to <a href="mailto:info@floridasuncoasthelicopters.com">info@floridasuncoasthelicopters.com</a>. We can't wait to hear from you!</p>
-
-        <a class="waves-effect waves-light btn" href="tel:+1-941-355-1259"><i class="material-icons left">phone</i>941-355-1259</a>
-        <br><br>
-
-        <h5>Connect with us</h5>
-        <a href="https://www.facebook.com/Florida-Suncoast-Helicopters-167594603293714/"><img class="social-icon" src="{{ site.github.url }}/img/social/facebook.png" alt="Follow on Facebook"></a>
-        <a href="https://www.instagram.com/fshelicopters/"><img class="social-icon" src="{{ site.github.url }}/img/social/instagram.png" alt="Follow on Instagram"></a>
-        <a href="https://twitter.com/suncoastheli"><img class="social-icon" src="{{ site.github.url }}/img/social/twitter.png" alt="Follow on Twitter"></a>
-        <a href="https://www.youtube.com/user/srqhelicopters"><img class="social-icon" src="{{ site.github.url }}/img/social/youtube.png" alt="Subscribe on YouTube"></a>
-        <br><br>
-      </div>
-
-      <div class="col s12 m6 grey lighten-5 z-depth-2">
-        <div class="section">
-            {% include contact_form.html %}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+</html>
