@@ -1,0 +1,3 @@
+FSH Blue:     #1C93B1
+FSH Purple:   #29166F
+FSH Orange:   #F0B277

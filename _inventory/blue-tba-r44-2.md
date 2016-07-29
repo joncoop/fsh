@@ -1,5 +1,5 @@
 ---
-layout: sale
+layout: aircraft
 title: 2016 Blue R44
 
 make: Robinson

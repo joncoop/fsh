@@ -1,5 +1,5 @@
 ---
-layout: sale
+layout: aircraft
 title: 2016 R66
 
 make: Robinson
@@ -7,7 +7,7 @@ model: R66
 year: 2016
 condition: New
 hours: 0
-price:
+price: Call
 seats: 5
 
 short-description: 2016 R66

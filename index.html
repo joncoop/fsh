@@ -1,177 +1,166 @@
 ---
-layout: default
+layout: home
 ---
 
-<!-- Banner section -->
-<!--
-<div id="index-banner" class="parallax-container parallax-full valign-wrapper row">
-    <div class="section col s12 valign">
-      <div class="container center">
+<!-- Sales -->
+<section id="sales">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <img class="img-fluid img-rounded" src="img/sales.jpg" alt="">
+      </div>
+
+      <div class="col-xs-12 col-md-6">
+        <h2>Aircraft Sales</h2>
+
+        <p>Florida Suncoast Helicopters is the number one new helicopter dealer in the United States. In addition to selling the Robinson R22 and R44, the Company is Florida’s only authorized dealer of the new R66 turbine. We also have an inventory of pre-owned helicopters. Please call us to really get a better idea on our discounted price.</p>
+
+        <p>Check out our <a href="{{ site.github.url }}/sales.html">current inventory</a> of new and pre-owned helicopters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service -->
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 push-md-6">
+        <img class="img-fluid img-rounded" src="img/blue_r66_service_1200x800.jpg" alt="R66 in the shop">
+      </div>
+
+      <div class="col-xs-12 col-md-6 pull-md-6">
+        <h2>Authorized Service</h2>
+
+        <p>FSH Maintenance, LLC is the largest, authorized Robinson Service Center in the Southeast and the leading provider of R66 maintenance in the United States.</p>
+
+        <h4>Services available include:</h4>
+        <ul>
+        <li>R22, R44, R66 Annuals/100-hr inspections</li>
+        <li>Rolls Royce RR300 200-hr and 400-hr inspections</li>
+        <li>Overhauls</li>
+        <li>Track and Balance</li>
+        <li>RR300 Compressor Wash/Rinse</li>
+        <li>Oil/Filter Changes</li>
+        <li>And much more…</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Fly with us -->
+<section class="bg-primary">
+  <div class="container">
+    <h2 class="text-xs-center">Fly With Us</h2>
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4 text-xs-center">
+        <img src="img/tours_320x320.jpg" alt="..." class="service-icon img-circle">
+
+        <h3>Scenic Tours</h3>
+        <p>Take flight along Sarasota’s coast to see its spectacular architecture and world-famous beaches, and marine wildlife.</p>
+        <a class="btn btn-info" href="tours.html">Learn More</a>
+      </div>
+
+      <div class="col-xs-12 col-md-4 text-xs-center">
+        <img src="img/training_320x320.jpg" alt="..." class="service-icon img-circle">
+
+        <h3>Pilot Training</h3>
+        <p>Whether you wish to start your career in rotorcraft or aquire an add-on rating. we'll help you achieve your goal.</p>
+        <a class="btn btn-info" href="training.html">Learn More</a>
+      </div>
+
+      <div class="col-xs-12 col-md-4 text-xs-center">
+        <img src="img/photography_320x320.jpg" alt="..." class="service-icon img-circle">
+
+        <h3>Aerial Photography</h3>
+        <p>No matter what your needs are, our experienced pilots will ensure you get the most professional results possible.</p>
+        <a class="btn btn-info" href="photography.html">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Media -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-lg-10 offset-lg-1 text-xs-center">
+        <h2>Media</h2>
+
+        <div id="instafeed"></div>
+
         <div class="row">
-          <h2 class="header teal-text text-lighten-2 hide-mobile-landscape">See the Sarasota Coast</h2>
-        </div>
-
-        <div class="row">
-          <a href="{{ site.github.url }}/tours.html" class="btn-large waves-effect waves-light teal lighten-1">Book a tour now</a>
-          <h4><a href="tel:+1-941-355-1259" class="teal-text text-lighten-2" itemprop="tel">941-355-1259</a></h4>
-        </div>
-
-        <a class="hide-mobile-landscape" href="#fly"><i class="material-icons large grey-text text-lighten-2">expand_more</i></a>
-      </div>
-    </div>
-  <div class="parallax"><img src="{{ site.github.url }}/img/in_flight.jpg" alt="background image 1"></div>
-</div>
--->
-
-<!-- Slider section -->
-<!--
-<div class="slider">
-  <ul class="slides">
-    <li>
-      <img src="{{ site.github.url }}/img/fleet_in_hangar.jpg" alt="Sales background">
-      <div class="caption left-align">
-        <h2 class="header red-text text-accent-4">Robinson’s #1 dealer</h2>
-        <h4 class="white-text text-lighten-2">Call to action!</h4>
-      </div>
-    </li>
-    <li>
-      <img src="{{ site.github.url }}/img/service_background.jpg" alt="Service background">
-      <div class="caption center-align">
-        <h2 class="header indigo-text text-darken-4">Factory-authorized service</h2>
-        <h4 class="white-text text-lighten-2">Call to action!</h4>
-      </div>
-    </li>
-    <li>
-      <img src="{{ site.github.url }}/img/in_flight.jpg" alt="Tours Background">
-      <div class="caption right-align">
-        <h2 class="header teal-text text-lighten-2">Come fly with us!</h2>
-        <h4 class="white-text text-lighten-2">Tours, Training, Photography</h4>
-      </div>
-    </li>
-  </ul>
-</div>
--->
-
-<!-- Fly section -->
-<div id="fly" class="section">
-  <div class="container">
-    <h1 class="center">Fly with us</h1>
-      <div class="row">
-        <div class="col s12 m4 center section">
-          <div class="section">
-            <img class="small_square responsive-img" src="{{ site.github.url }}/img/tours_320x320.jpg" alt="Scenic tours">
+          <div class="col-xs-12 col-sm-6">
+            <div class="media-item embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/HxAiVy9LtDM" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-          <h4 class="center">Scenic Tours</h4>
-          <p class="light">Take flight along Sarasota’s coast to see its spectacular architecture and world-famous beaches, and marine wildlife.</p>
-          <a class="waves-effect waves-light btn" href="{{ site.github.url }}/tours.html">Book Now</a>
-        </div>
 
-        <div class="col s12 m4 center section">
-          <div class="section">
-            <img class="small_square responsive-img" src="{{ site.github.url }}/img/training_320x320.jpg" alt="Training">
+          <div class="col-xs-12 col-sm-6">
+            <div class="media-item embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/bZb-ztL_2nY" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-          <h4 class="center">Pilot Training</h4>
-          <p class="light">Whether interested in beginning a career in rotorcraft or aquiring an add-on rating,  FSH would like to help you achieve that goal.</p>
-          <a class="waves-effect waves-light btn" href="{{ site.github.url }}/training.html">Learn to fly</a>
-        </div>
 
-        <div class="col s12 m4 center section">
-          <div class="section">
-            <img class="small_square responsive-img" src="{{ site.github.url }}/img/photography_320x320.jpg" alt="Aerial photography">
+          <div class="col-xs-12 col-sm-6">
+            <div class="media-item embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/FQSsT4gaqoI" frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-          <h4>Aerial Photography</h4>
-          <p class="light">No matter what your needs are, our experienced pilots will ensure you get the most professional results possible.</p>
-          <a class="waves-effect waves-light btn" href="{{ site.github.url }}/photography.html">Learn more</a>
+
+          <div class="col-xs-12 col-sm-6">
+            <div class="media-item embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/JlvWt84fnAU" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <a href="https://www.youtube.com/user/srqhelicopters" class="btn btn-primary">View All</a>
+          </div>
         </div>
-    </div>
-  </div>
-</div>
-
-<!-- Sales & Service  section-->
-<div class="section grey lighten-3">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <h2>Sales &amp; Service</h2>
-        <p class="light">Florida Suncoast Helicopters, an authorized Robinson Helicopter dealership, will provide you with knowledgeable service as you look to purchase a new or pre-owned helicopter. In addition to selling the Robinson R22 and R44, the company is Florida’s only authorized dealer of the new R66. Please contact us to talk about your new helicopter today!</p>
-        <p class="light">We are also an FAA certified 145 Repair Center and authorized Robinson Service Center. Our highly-trained, certified mechanics are here to help you with all your maintenance needs. Our comprehensive inspections and maintenance leave our customers satisfied with a safe, clean, and well-maintained aircraft after every job. Please contact us for more information and pricing.</p>
-      </div>
-
-      <div class="col s12 m6 hide-on-small-only">
-        <figure>
-          <img class="responsive-img z-depth-2" src="{{ site.github.url }}/img/blue_r66_service_1200x800.jpg" alt="The new R66">
-          <figcaption>We are Florida’s only authorized dealer of the new R66.</figcaption>
-        </figure>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 
-<!-- Map section -->
-<div class="section">
+<!-- Contact -->
+<section class="bg-primary">
   <div class="container">
+    <h2 class="text-xs-center">Get in touch</h2>
+
     <div class="row">
-      <div class="col s12 m6">
-        <h2>Come for a visit</h2>
-        <p class="light">Florida Suncoast Helicopters is fortunate to be operating at Sarasota-Bradenton International Airport. Our location in Southwest Florida allows for convenient service, year-round tours, training, and more. </p>
-        <p class="light">
-          Rectrix North<br>
-          Sarasota-Bradenton Intl. Airport<br>
-          1244 Clyde Jones Rd<br>
-          Sarasota, FL 34243
-        </p>
-        <a class="waves-effect waves-light btn" href="https://goo.gl/maps/56PhyUbGqqH2"><i class="material-icons left">place</i>Get Directions</a>
-      </div>
+      <div class="col-xs-12 col-md-6">
+        <p>You can contact us via the form on this page, by phone, or by sending email to <a href="mailto:info@floridasuncoasthelicopters.com">info@floridasuncoasthelicopters.com</a>. We can't wait to hear from you!</p>
 
-      <div class="col s12 m6 hide-on-small-only">
-        {% include map.html %}
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- Contact section -->
-<div class="section grey lighten-3">
-  <div class="container">
-    <div class="row">
-      <div class="col s12 m6">
-        <h2>Get in touch</h2>
-        <p class="light">You can contact us via the form on this page, by phone, or by sending email to <a href="mailto:info@floridasuncoasthelicopters.com">info@floridasuncoasthelicopters.com</a>. We can't wait to hear from you!</p>
-
-        <a class="waves-effect waves-light btn" href="tel:+1-941-355-1259"><i class="material-icons left">phone</i>941-355-1259</a>
+        <a href="tel:+1-{{ site.phone }}" class="btn btn-lg btn-info"><i class="fa fa-phone" aria-hidden="true"></i> {{ site.phone }}</a>
         <br><br>
 
-        <h5>Connect with us</h5>
-        <a href="https://www.facebook.com/Florida-Suncoast-Helicopters-167594603293714/"><img class="social-icon" src="{{ site.github.url }}/img/social/facebook.png" alt="Follow on Facebook"></a>
-        <a href="https://www.instagram.com/fshelicopters/"><img class="social-icon" src="{{ site.github.url }}/img/social/instagram.png" alt="Follow on Instagram"></a>
-        <a href="https://twitter.com/suncoastheli"><img class="social-icon" src="{{ site.github.url }}/img/social/twitter.png" alt="Follow on Twitter"></a>
-        <a href="https://www.youtube.com/user/srqhelicopters"><img class="social-icon" src="{{ site.github.url }}/img/social/youtube.png" alt="Subscribe on YouTube"></a>
-        <br><br>
+        <h4>Social</h4>
+        <a href="https://www.facebook.com/Florida-Suncoast-Helicopters-167594603293714/"><img class="social-icon" src="img/social/facebook.png" alt="Follow on Facebook"></a>
+        <a href="https://www.instagram.com/fshelicopters/"><img class="social-icon" src="img/social/instagram.png" alt="Follow on Instagram"></a>
+        <a href="https://twitter.com/suncoastheli"><img class="social-icon" src="img/social/twitter.png" alt="Follow on Twitter"></a>
+        <a href="https://www.youtube.com/user/srqhelicopters"><img class="social-icon" src="img/social/youtube.png" alt="Subscribe on YouTube"></a>
       </div>
 
-      <div class="col s12 m6 grey lighten-5 z-depth-2">
-        <div class="section">
-            {% include contact_form.html %}
-        </div>
+      <div class="col-xs-12 col-md-6">
+        {% include contact_form.html %}
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<!-- Paralax image section-->
-<!--
-<div class="parallax-container hide-on-med-and-down">
-  <div class="section">
-    <div class="container">
-      <br><br>
-      <div class="row center">
-        <h4 class="header col s12 white-text darken-1">We are Florida's only authorized R22, R44, and R66 dealer and service center.</h4>
-      </div>
-    </div>
-    <br><br>
-  </div>
-  <div class="parallax"><img src="{{ site.github.url }}/img/fleet_in_hangar.jpg" alt="Our Fleet"></div>
-</div>
--->
+
+<!-- Location -->
+<section class="map">
+  <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3542.1133496419047!2d-82.5531913!3d27.403393!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c33fd450477c33%3A0x6959bc0701093519!2sFlorida+Suncoast+Helicopters!5e0!3m2!1sen!2sus!4v1464462289887"></iframe>
+  <br />
+  <small>
+    <a href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3542.1133496419047!2d-82.5531913!3d27.403393!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c33fd450477c33%3A0x6959bc0701093519!2sFlorida+Suncoast+Helicopters!5e0!3m2!1sen!2sus!4v1464462289887"></a>
+  </small>
+  </iframe>
+</section>

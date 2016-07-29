@@ -1,5 +1,5 @@
 ---
-layout: sale
+layout: aircraft
 title: 2016 R44 Cadet
 
 make: Robinson
@@ -7,7 +7,7 @@ model: R44 Cadet
 year: 2016
 condition: New
 hours: 0
-price: 319,000
+price: $319,000
 seats: 2
 
 short-description: 2016 R44 Cadet

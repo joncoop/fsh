@@ -1,54 +1,43 @@
 ---
-layout: page
+layout: secondary
 title: Aerial Photography
 ---
 
-<div class="row">
-  <div class="col s12 m6">
-    <p>We have flown boat races, real estate, news gathering, wildlife spotting, surveying, … what else? No matter what your needs are, our experienced pilots will ensure you get the most professional results possible.</p>
-  </div>
+<section id="overview">
+  <h2>{{ page.title }}</h2>
 
-  <div class="col s12 m6">
-    <figure>
-      <img class="responsive-img" src="{{ site.github.url }}/img/photography/bayfront_1200x675.jpg" alt="View of Sarasota">
-      <figcaption>Sarasota Bayfront</figcaption>
-    </figure>
-  </div>
-</div>
+  <div class="row">
+    <div class="col-sm-12 col-md-6 push-md-6">
+      <img class="img-fluid" src="{{ site.github.url }}/img/bayfront_1200x675.jpg" alt="">
+    </div>
 
-<div class="row">
-  <div class="col s12">
-    <h3>FAQ</h3>
+    <div class="col-sm-12 col-md-6 pull-md-6">
+      <p>We have flown boat races, real estate, news gathering, wildlife spotting, surveying, … what else? No matter what your needs are, our experienced pilots will ensure you get the most professional results possible.</p>
 
-    <ul class="collapsible" data-collapsible="accordion">
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>Do you supply the photographer?</div>
-        <div class="collapsible-body">
-          <p>We do not supply the photographer. A client will usually hire the photographer. The photographer will then contact us to schedule the flight. If you do not have a regular photographer or know a photographer then we can help you get in contact with several experienced photographers in the aerial photo business. These photographers have flown with us many times and are familiar with the area, our helicopters, and our pilots.</p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>What are my options for video?</div>
-        <div class="collapsible-body">
-          <p>For many smaller jobs a client will hire a videographer who will shoot with a handheld camera from the helicopter. Hand held video camera shots are subject to vibrations and bumps and best used when only short video clips are needed. These video flights are the same price as photography. If you need a steady prolonged shot we offer a Tyler-mounted gyro stabilized camera. Since using this camera can be difficult with no operating experience, we will supply the camera operator. There is an increased cost on these flights.</p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>How low can we fly?</div>
-        <div class="collapsible-body">
-          <p>Although the FAA does not spell out a specific minimum altitude for helicopters there are some guidelines. We will not fly lower than any altitude that puts the passengers, the aircraft, or people on the ground in possible harms way. Your pilot will always put safety above everything else.</p></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>Can I bring passengers?</div>
-        <div class="collapsible-body">
-          <p>Only those essential for the job may fly. Weight is critical for a helicopter. The photographer and an assistant will be the only ones allowed to fly.</p></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>What if I have to cancel?</div>
-        <div class="collapsible-body">
-          <p>There will be a $50 charge per hour booked in the R22. The charge for the R44 is $100 per hour booked. These charges only apply if you cancel with less than 24 hours notice. We do allow cancellations without charge cases of inclement weather. Please understand that inclement weather does not include cloudy, hazy, etc. Inclement weather means weather that would compromise the safety of flight.</p>
-        </div>
-      </li>
-    </ul>
+      <p>Please call now to schedule your photography flight.</p>
+
+      {% include call-button.html %}
+    </div>
+
   </div>
-</div>
+</section>
+
+<aside id="faqs">
+  <h3>FAQs</h3>
+
+  <h4>Do you supply the photographer?</a></h4>
+  <p>We do not supply the photographer. A client will usually hire the photographer. The photographer will then contact us to schedule the flight. If you do not have a regular photographer or know a photographer then we can help you get in contact with several experienced photographers in the aerial photo business. These photographers have flown with us many times and are familiar with the area, our helicopters, and our pilots.</p>
+
+  <h4>What are my options for video?</h4>
+  <p>For many smaller jobs a client will hire a videographer who will shoot with a handheld camera from the helicopter. Hand held video camera shots are subject to vibrations and bumps and best used when only short video clips are needed. These video flights are the same price as photography. If you need a steady prolonged shot we offer a Tyler-mounted gyro stabilized camera. Since using this camera can be difficult with no operating experience, we will supply the camera operator. There is an increased cost on these flights.</p>
+
+  <h4>How low can we fly?</h4>
+  <p>Although the FAA does not spell out a specific minimum altitude for helicopters there are some guidelines. We will not fly lower than any altitude that puts the passengers, the aircraft, or people on the ground in possible harms way. Your pilot will always put safety above everything else.</p>
+
+  <h4>Can I bring passengers?</h4>
+  <p>Only those essential for the job may fly. Weight is critical for a helicopter. The photographer and an assistant will be the only ones allowed to fly.</p>
+
+  <h4>What if I have to cancel?</h4>
+  <p>There will be a $50 charge per hour booked in the R22. The charge for the R44 is $100 per hour booked. These charges only apply if you cancel with less than 24 hours notice. We do allow cancellations without charge cases of inclement weather. Please understand that inclement weather does not include cloudy, hazy, etc. Inclement weather means weather that would compromise the safety of flight.</p>
+
+</aside>

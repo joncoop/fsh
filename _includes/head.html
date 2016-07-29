@@ -1,13 +1,29 @@
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="">
 
-  <link rel="icon" href="{{ site.github.url }}/img/favicon.ico">
+  <title>{{ site.title | escape }}{% if page.title %} - {{ page.title | escape }}{% endif %}</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="{{ site.github.url }}/css/main.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <!-- icons -->
+  <link rel="icon" href="http://floridasuncoasthelicopters.com/img/favicon.ico">
 
-  <meta name="google-site-verification" content="hKPRPceEGud43Y2J9XgCks4IMFXdCjCBozXO6b6kgXQ" />
+  <!-- Bootstrap Core CSS -->
+  <link href="{{ site.github.url }}/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="{{ site.github.url }}/css/custom.css" rel="stylesheet" >
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>

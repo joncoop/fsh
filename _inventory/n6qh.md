@@ -1,5 +1,5 @@
 ---
-layout: sale
+layout: aircraft
 title: 2016 Black R44
 
 make: Robinson
@@ -7,7 +7,7 @@ model: R44 Raven II
 year: 2016
 condition: New
 hours: 24
-price: 582,000
+price: $582,000
 seats: 4
 
 short-description: 2016 Black Raven II - w/Autopilot

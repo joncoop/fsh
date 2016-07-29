@@ -1,84 +1,64 @@
 ---
-layout: page
+layout: secondary
 title: Scenic Tours
 ---
 
-<div class="row">
-  <div class="col s12 m6">
-    <p>Take flight along Sarasota’s coast to see its unique downtown architecture, spectacular beachfront homes, world-famous white sand beaches, and marine wildlife.</p>
+<section id="overview">
+  <h2>{{ page.title }}</h2>
 
-    <p>Almost immediately upon departure, two notable, local landmarks come into view: The John and Mable Ringling Art Museum and, Ca D’Zan, their recently restored Venetian style mansion on the bay. Continuing along the Bayfront, another unusual building stands out. The very purple building is the Van Wezel Performing Arts Hall.</p>
+  <div class="row">
+    <div class="col-xs-12 col-md-6 push-md-6">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/HxAiVy9LtDM" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
 
-    <p>A turn to the West takes the flight over the Ringling Bridge and out to St. Armands Circle and Lido Key.</p>
+    <div class="col-xs-12 col-md-6 pull-md-6">
+      <p>Take flight along Sarasota’s coast to see its unique downtown architecture, spectacular beachfront homes, world-famous white sand beaches, and marine wildlife.</p>
 
-    <p>Passengers on the thirty-minute tour can choose either the southern or northern routes. Our southern tour travels along the coast of Siesta Key and Casey Key to the Venice Inlet and makes it return to the airport by flying along the bayfront at Big Pass and over Bird Key, while the northern tour flies along the coast of Longboat Key.</p>
+      <p>Almost immediately upon departure, two notable, local landmarks come into view: The John and Mable Ringling Art Museum and, Ca D’Zan, their recently restored Venetian style mansion on the bay. Continuing along the Bayfront, another unusual building stands out. The very purple building is the Van Wezel Performing Arts Hall.</p>
 
-    <p>Those choosing a one-hour tour will have the opportunity to see virtually the entire Sarasota coastline, including sites from both the northern and southern tours.</p>
+      <p>A turn to the West takes the flight over the Ringling Bridge and out to St. Armands Circle and Lido Key.</p>
 
-    <p>Please call now to book a tour. Personalized gift certificates are also available.</p>
+      <p>Passengers on the thirty-minute tour can choose either the southern or northern routes. Our southern tour travels along the coast of Siesta Key and Casey Key to the Venice Inlet and makes it return to the airport by flying along the bayfront at Big Pass and over Bird Key, while the northern tour flies along the coast of Longboat Key.</p>
 
-    <a class="waves-effect waves-light btn" href="tel:+1-941-355-1259"><i class="material-icons left">phone</i>941-355-1259</a>
-  </div>
+      <p>Those choosing a one-hour tour will have the opportunity to see virtually the entire Sarasota coastline, including sites from both the northern and southern tours.</p>
 
-  <div class="col s12 m6">
-    <div class="video-container">
-      <iframe width="1280" height="720" src="https://www.youtube.com/embed/HxAiVy9LtDM" frameborder="0" allowfullscreen></iframe>
+      <p>Please call now to book a tour. Personalized gift certificates are also available.</p>
+
+      {% include call-button.html %}
     </div>
   </div>
-</div>
+</section>
 
-<div class="row">
-  <div class="col s12">
-    <h3>FAQ</h3>
+<aside id="faqs">
+  <h3>FAQs</h3>
 
-    <ul class="collapsible" data-collapsible="accordion">
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>Can I bring a camera?</div>
-        <div class="collapsible-body">
-          <p>Yes, please do. You may bring a still or video cameras.</p></div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>What if the weather is bad?</div>
-        <div class="collapsible-body">
-          <p>If the weather conditions will not allow us to fly then we will be happy to reschedule your tour without any fee.</p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>What if I have to cancel?</div>
-        <div class="collapsible-body">
-          <p>We require a 24 hour notice for cancellations. If you cancel your flight after then we will charge you a $50 fee for a half hour tour and a $100 fee for an hour tour.</p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>Can my kids come for a tour?</div>
-        <div class="collapsible-body">
-          <p>Yes, but they must be able to sit without a child restraint and in their own seat.</p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>What about the Grandparents?</div>
-        <div class="collapsible-body">
-          <p>Of course they can. The helicopter can be difficult to get in and out of with decreased mobility, but it does not mean you have to stay on the ground. Believe it or not we have had a passenger take a ride for his 100th birthday.</p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>How often do the tours depart?</div>
-        <div class="collapsible-body">
-          <p>We have not set departure schedule. All you need to do is call and set up a time and date that suits you best. Tours after normal business hours may be subject to an extra charge.</p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>Am I supposed to tip the pilot?</div>
-        <div class="collapsible-body">
-          <p>The pilot usually receives a tip for the tour.</p>
-        </div>
-      </li>
-      <li>
-        <div class="collapsible-header"><i class="material-icons">add</i>Can a give a ride as a gift?</div>
-        <div class="collapsible-body">
-          <p>People have purchased rides for tours, first lessons, engagement proposals, and more. Personalized gift certificates are available.</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+  <h4>Can I bring a camera?</h4>
+  <p>Yes, please do. You may bring a still or video cameras.</p>
+
+  <h4>What if I have to cancel?</h4>
+  <p>We require a 24 hour notice for cancellations. If you cancel your flight after then we will charge you a $50 fee for a half hour tour and a $100 fee for an hour tour.</p>
+
+  <h4>What if the weather is bad?</h4>
+  If the weather conditions will not allow us to fly then we will be happy to reschedule your tour without any fee.</p>
+
+  <h4>Can my kids come for a tour?</h4>
+  <p>Yes, but they must be able to sit without a child restraint and in their own seat.</p>
+
+  <h4>What about the Grandparents?</h4>
+  <p>Of course they can. The helicopter can be difficult to get in and out of with decreased mobility, but it does not mean you have to stay on the ground. Believe it or not we have had a passenger take a ride for his 100th birthday.</p>
+
+  <h4>What if the weather is bad?</h4>
+  <p>If the weather conditions will not allow us to fly then we will be happy to reschedule your tour without any fee.</p>
+
+  <h4>How often do the tours depart?</h4>
+  <p>We have not set departure schedule. All you need to do is call and set up a time and date that suits you best. Tours after normal business hours may be subject to an extra charge.</p>
+
+  <h4>Am I supposed to tip the pilot?</h4>
+  <p>The pilot usually receives a tip for the tour.</p>
+
+  <h4>Can I give a ride as a gift?</h4>
+  <p>People have purchased rides for tours, first lessons, engagement proposals, and more. Personalized gift certificates are available.</p>
+
+</aside>

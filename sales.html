@@ -1,61 +1,43 @@
 ---
-layout: page
+layout: secondary
 title: Aircraft Sales
 ---
 
-<div class="row">
-  <div class="col s12">
-    <p>Florida Suncoast Helicopters is consistently the number one new helicopter dealer in the United States. We will provide you with knowledgeable service as you look to purchase a new or pre-owned helicopter. In addition to selling the Robinson R22 and R44, the Company is Florida’s only authorized dealer of the new R66 turbine. For new helicopters, the cost can be estimated by using the <a href="http://www.robinsonheli.com/productconfig.htm">Robinson configurator</a>. You can pick your options to get a basic idea of what your looking at. After using the configurator to decide on options, please call us to really get a better idea on our discounted price. Flight training will be provided at no cost with the purchase of any new helicopter. We also have an inventory of pre-owned helicopters. Please call for more information.<p>
+<section id="overview">
+  <h2>{{ page.title }}</h2>
 
-    <a class="waves-effect waves-light btn" href="tel:+1-941-355-1259"><i class="material-icons left">phone</i>941-355-1259</a>
-  </div>
-</div>
+  <div class="row">
+    <div class="col-xs-12">
+      <p>Florida Suncoast Helicopters is consistently the number one new helicopter dealer in the United States. We will provide you with knowledgeable service as you look to purchase a new or pre-owned helicopter. In addition to selling the Robinson R22 and R44, the Company is Florida’s only authorized dealer of the new R66 turbine. For new helicopters, the cost can be estimated by using the <a href="http://www.robinsonheli.com/productconfig.htm">Robinson configurator</a>. You can pick your options to get a basic idea of what your looking at. After using the configurator to decide on options, please call us to really get a better idea on our discounted price. Flight training will be provided at no cost with the purchase of any new helicopter. We also have an inventory of pre-owned helicopters.<p>
 
-<div class="row">
-  <div class="col s12">
-    <h3>Current Inventory</h3>
-  </div>
+      <p>Please call now to discuss inventory and discounted pricing.</p>
 
-  {% for page in site.inventory %}
-    <div class="col s12 m4">
-      <div class="card medium">
-        <div class="card-image">
-          <img src="{{ site.github.url }}/{{ page.main-image }}">
-          <span class="card-title">{{ page.title }}</span>
-        </div>
-        <div class="card-content">
-          <p>{{ page.short-description }}</p>
-        </div>
-        <div class="card-action">
-          <a href="{{ site.github.url }}{{ page.url }}">View Details</a>
-        </div>
-      </div>
+      {% include call-button.html %}
     </div>
-  {% endfor %}
-</div>
-
-<div class="row">
-  <div class="col s12">
-    <h3>The Robinson Line</h3>
-
-    <p>When choosing a helicopter, you need to know how you will be using your helicopter and where you will be flying.</p>
-
-    <h5>R66 Turbine</h5>
-
-    <p>The premier helicopter Robinson offers is the Robinson R66 Turbine. The aircraft is powered by the Rolls Royce RR330 Engine which offers increased reserve power and improved high-altitude performance. This smooth-running aircraft can seat up to 5 people and has large baggage compartment and the very popular upgrade option of auto pilot. The R66 Turbine also comes in a Marine version with pop-out floats.</p>
-
-    <h5>R44 Raven, Raven II, and Cadet</h5>
-
-    <p>The most basic and inexpensive R44 model is the Cadet. This aircraft shares the proven Raven airframe, rotor system, and engine. The main difference is the two rear seats have been removed and reconfigured for a baggage compartment. This aircraft is suitable for training and flight schools and offers an option for air conditioning.</p>
-
-    <p>The R44 Raven is Robinson’s first 4-seat model. This aircraft should be sufficient for low-altitude, low-payload operation at an affordable price. Air conditioning is not an available option for the R44 Raven I.</p>
-
-    <p>The next step up is the R44 Raven II. It has more power allowing for greater payloads and operation at higher altitudes. The Raven II also has options for air conditioning and a fuel-injected engine.</p>
-
-    <p>The next two models of the R44 are the Clipper and Clipper II. Simply put, the Clippers are R44 Ravens with floats. If you will be operating over areas with lots of water you will definitely want to consider Clipper model with pop out emergency floats.</p>
-
-    <h5>R22 Beta II</h5>
-
-    <p>The R22 Beta II is Robinson's two seat helicopter. The low operating costs have made the R22 very popular for training. Most flight schools, including Florida Suncoast Helicopters, rely on the R22 for most of their training.</p>
   </div>
-</div>
+</section>
+
+<section id="inventory">
+  <h3>Current Inventory</h3>
+
+  <div class="row">
+    <div class="card-deck">
+      {% for item in site.inventory %}
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="{{ site.github.url }}/{{ item.main-image }}" alt="Main image">
+              <div class="card-block">
+                <div class="card-text">
+                  <h4>{{ item.title }}</h4>
+                  <p><strong>{{ item.price | money_without_currency }}</strong></p>
+                </div>
+              </div>
+              <div class="card-footer">
+                <a class="btn btn-primary"href="{{ site.github.url }}{{ item.url }}">View Details</a>
+              </div>
+            </div>
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

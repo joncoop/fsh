@@ -1,0 +1,24 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+
+$brand-primary:             #1C93B1 !default; // FSH Blue
+$brand-secondary:           #F0B277 !default; // FSH Orange
+$brand-tertiary:            #29166F !default; // FSH Purple
+
+
+$brand-inverse:             $brand-tertiary !default;
+$brand-info:                $brand-tertiary !default;
+
+
+$font-size-h1: 3.0rem !default;
+$font-size-h2: 2.5rem !default;
+$font-size-h3: 2rem !default;
+$font-size-h4: 1.25rem !default;
+$font-size-h5: 1.1rem !default;
+$font-size-h6: 1rem !default;
+
+
+$enable-flex:               true !default;

@@ -1,26 +1,32 @@
 ---
-layout: page
+layout: secondary
 title: Contact Us
 ---
 
-<div class="row">
-  <div class="col s12 m6">
-    <p class="light">You can contact us via the form on this page, by phone, or by sending email to <a href="mailto:info@floridasuncoasthelicopters.com">info@floridasuncoasthelicopters.com</a>. We can't wait to hear from you!</p>
+<section id="overview">
+  <h2>{{ page.title }}</h2>
 
-    <a class="waves-effect waves-light btn" href="tel:+1-941-355-1259"><i class="material-icons left">phone</i>941-355-1259</a>
-    <br><br>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <h4>Address:</h4>
+      <p>Rectrix North<br>
+         Sarasota-Bradenton Intl. Airport<br>
+         1244 Clyde Jones Rd<br>
+         Sarasota, FL 34243</p>
 
-    <h5>Connect with us</h5>
-    <a href="https://www.facebook.com/Florida-Suncoast-Helicopters-167594603293714/"><img class="social-icon" src="{{ site.github.url }}/img/social/facebook.png" alt="Follow on Facebook"></a>
-    <a href="https://www.instagram.com/fshelicopters/"><img class="social-icon" src="{{ site.github.url }}/img/social/instagram.png" alt="Follow on Instagram"></a>
-    <a href="https://twitter.com/suncoastheli"><img class="social-icon" src="{{ site.github.url }}/img/social/twitter.png" alt="Follow on Twitter"></a>
-    <a href="https://www.youtube.com/user/srqhelicopters"><img class="social-icon" src="{{ site.github.url }}/img/social/youtube.png" alt="Subscribe on YouTube"></a>
-    <br><br>
-  </div>
+         <h4>Email:</h4>
+         <p><a href="mailto:info@floridasuncoasthelicopters.com">info@floridasuncoasthelicopters.com</a></p>
 
-  <div class="col s12 m6 grey lighten-5 z-depth-2">
-    <div class="section">
-        {% include contact_form.html %}
+         <h4>Phone:</h4>
+         <p><a href="tel:1-{{ site.phone }}">{{ site.phone }}</a></p>
+
+
+      <br><br>
+
+    </div>
+
+    <div class="co-sm-12 col-md-6">
+      {% include contact_form.html %}
     </div>
   </div>
-</div>
+</section>

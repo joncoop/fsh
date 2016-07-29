@@ -1,36 +1,23 @@
-<div class="container">
-  <div class="row">
-    <div class="col s12 m4 l6">
-      <h4>Location</h4>
-      <p>
-        Rectrix North<br>
-        Sarasota-Bradenton Intl. Airport<br>
-        1244 Clyde Jones Rd<br>
-        Sarasota, FL 34243
-      </p>
-    </div>
-    <div class="col s6 m4 l3">
-      <h4>Company</h4>
-      <ul>
-        <li><a href="{{ site.github.url }}/about.html">About</a></li>
-        <li><a href="{{ site.github.url }}/contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="col s6 m4 l3">
-      <h4>Services</h4>
-      <ul>
-        <li><a href="{{ site.github.url }}/photography.html">Photography</a></li>
-        <li><a href="{{ site.github.url }}/sales.html">Sales</a></li>
-        <li><a href="{{ site.github.url }}/service.html">Service</a></li>
-        <li><a href="{{ site.github.url }}/tours.html">Tours</a></li>
-        <li><a href="{{ site.github.url }}/training.html">Training</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+<footer>
+  <div class="container text-xs-center">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h4>Florida Suncoast Helicopters</h4>
 
-<div class="footer-copyright">
-  <div class="container">
-    &copy;{{ site.time | date: '%Y' }} <a href="{{ site.github.url }}/">Florida Suncoast Helicopters</a>
+        <p>Rectrix North<br>
+           Sarasota-Bradenton Intl. Airport<br>
+           1244 Clyde Jones Rd<br>
+           Sarasota, FL 34243</p>
+
+        <ul class="list-unstyled">
+          <li><i class="fa fa-phone fa-fw"></i> {{ site.phone }}</li>
+          <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+
+        <p>&copy; {{ site.time | date: '%Y' }} Florida Suncoast Helicopters</p>
+      </div>
+    </div>
   </div>
-</div>
+
+  <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+</footer>
