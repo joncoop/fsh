@@ -169,7 +169,8 @@ footer h4 {
 }
 
 .jumbotron-logo {
-
+  width: 520px;
+  max-width: 66%;
 }
 
 .jumbotron .tagline {
@@ -204,6 +205,10 @@ footer h4 {
 @media (max-height: 550px) {
   .skip-to-content-icon {
     display: none;
+  }
+
+  .jumbotron-logo {
+    width: 320px;
   }
 }
 
