@@ -193,6 +193,14 @@ footer h4 {
   opacity: 1.0;
 }
 
+@media (max-width: 800px) and (orientation: portrait) {
+    .jumbotron {
+      background-position: right bottom;;
+      padding-top: 25vh;
+      vertical-align: top;
+    }
+}
+
 @media (max-height: 550px) {
   .skip-to-content-icon {
     display: none;
