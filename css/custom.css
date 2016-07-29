@@ -107,7 +107,7 @@ footer h4 {
 
 .brand-icon {
   height: 20px;
-  vertical-align: baseline;;
+  vertical-align: baseline;
 }
 
 @media (max-width: 480px) {
@@ -133,6 +133,23 @@ footer h4 {
 .navbar-toggler {
   color: #FFF;
 }
+
+/* Fix to have nav items clear navbar
+ * http://stackoverflow.com/questions/36329305/bootstrap-4-responsive-navbar
+ */
+@media(max-width: 991px) {
+    .navbar .navbar-nav>.nav-item {
+        float: none;
+        margin-left: .1rem;
+    }
+    .navbar .navbar-nav {
+        float:none !important;
+    }
+    .navbar .collapse.in, .navbar .collapsing  {
+        clear:both;
+    }
+}
+
 
 /* Custom Jumbotron styles */
 .jumbotron {
