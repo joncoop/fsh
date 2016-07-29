@@ -131,7 +131,7 @@ footer h4 {
 }
 
 .navbar-toggler {
-  color: #FFF;
+  color: #FFF !important;
 }
 
 /* Fix to have nav items clear navbar
