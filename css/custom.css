@@ -50,12 +50,12 @@ footer {
 
 .map {
     height: 500px;
-    padding-top: 0;
+    padding: 0;
 }
 
 @media(max-width:768px) {
     .map {
-        height: 75%;
+        height: 300px;
     }
 }
 
