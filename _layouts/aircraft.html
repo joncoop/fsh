@@ -13,7 +13,9 @@ layout: secondary
 
       {% for item in page.secondary-images %}
         <div class="col-xs-4">
-          <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" alt="product image">
+          <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
+            <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="product image">
+          </a>
         </div>
       {% endfor %}
     </div>
