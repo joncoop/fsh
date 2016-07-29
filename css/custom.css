@@ -19,16 +19,36 @@ main {
   padding-top: 100px;
 }
 
+main.home {
+  padding-top: 30px;
+}
+
 section {
   padding: 50px 0;
 }
 
-section:first-child {
-    padding-top: 0px;
-}
-
 footer {
   padding: 0 0 30px 0;
+}
+
+@media (max-width: 480px) {
+    section {
+      padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 2.0rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .home h2, .home h3 {
+    text-align: center;
+  }
 }
 
 
@@ -55,7 +75,7 @@ footer {
 
 @media(max-width:768px) {
     .map {
-        height: 300px;
+        height: 360px;
     }
 }
 
@@ -204,21 +224,21 @@ footer {
  * https://coderwall.com/p/0jezca/vertical-spacing-for-bootstrap-columns
  */
 .row [class*="col-"] {
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 @media (min-width: 1200px) {
     .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
-        margin-top: 0;
+        margin: 0;
     }
 }
 @media (min-width: 992px) {
     .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
-        margin-top: 0;
+        margin: 0;
     }
 }
 @media (min-width: 768px) {
     .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
-        margin-top: 0;
+        margin: 0;
     }
 }
