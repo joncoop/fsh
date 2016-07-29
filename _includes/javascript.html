@@ -68,9 +68,15 @@ $('.map').on('click', onMapClickHandler);
 /* Collapse navbar when clicking away from links.
  * http://stackoverflow.com/questions/21496304/bootstrap-collapse-component-not-closing-menu-on-clicking-away
  */
-$(document).on('click',function(e){
-  if($('#mainNav').hasClass('in')){
-    $('.collapse').collapse('hide');
-  }
-})
+ $(document).on('click',function(e){
+   if($('#mainNav').hasClass('in')){
+     $('.collapse').collapse('hide');
+   }
+ })
+
+ $("#scrollArrow").on('click',function(e){
+   if($('#mainNav').hasClass('in')){
+     $('.collapse').collapse('hide');
+   }
+ })
 </script>
