@@ -212,6 +212,19 @@ footer h4 {
   }
 }
 
+/* Product gallery styles */
+.product-thumb {
+  position: relative;
+}
+
+.expand-icon {
+  color: #DDD;
+  font-size: 22px;
+  position: absolute;
+  bottom:12px;
+  right:12px;
+  pointer-events: none;
+}
 
 /* Custom Card Deck styles
  * Based on http://codepen.io/KarlDoyle/pen/pypWbR

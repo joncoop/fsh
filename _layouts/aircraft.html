@@ -8,16 +8,21 @@ layout: secondary
   <div class="col-xs-12 col-md-6">
     <div class="row">
       <div class="col-xs-12">
-        <a href="{{ site.github.url }}/{{ page.main-image }}" data-lightbox="gallery" alt="">
-          <img class="img-fluid" src="{{ site.github.url }}/{{ page.main-image }}" data-lightbox="gallery" alt="product image">
-        </a>
+        <div class="product-thumb">
+          <a href="{{ site.github.url }}/{{ page.main-image }}" data-lightbox="gallery" alt="">
+            <img class="img-fluid" src="{{ site.github.url }}/{{ page.main-image }}" data-lightbox="gallery" alt="product image">
+          </a>
+          <i class="expand-icon fa fa-expand" aria-hidden="true"></i>
+        </div>
       </div>
 
       {% for item in page.secondary-images %}
         <div class="col-xs-4">
-          <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
-            <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="product image">
-          </a>
+          <div class="product-thumb">
+            <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
+              <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="product image">
+            </a>
+          </div>
         </div>
       {% endfor %}
     </div>
