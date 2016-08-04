@@ -24,19 +24,7 @@ title: Aircraft Sales
     {% for item in site.inventory %}
       {% if item.status == "available" %}
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="card">
-            <img class="card-img-top img-fluid" src="{{ site.github.url }}/{{ item.exterior-images[0] }}" alt="Main image">
-
-            <div class="card-block">
-              <div class="card-text">
-                <h4>{{ item.title }}</h4>
-                <p><strong>{{ item.price | money_without_currency }}</strong><span class="text-muted"> | {{ item.condition }}</span></p>
-              </div>
-            </div>
-            <div class="card-footer">
-              <a class="btn btn-primary"href="{{ site.github.url }}{{ item.url }}">View Details</a>
-            </div>
-          </div>
+          {% include product_card.html %}
         </div>
       {% endif %}
     {% endfor %}
@@ -50,19 +38,7 @@ title: Aircraft Sales
     {% for item in site.inventory %}
       {% if item.status == "order" %}
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="card">
-            <img class="card-img-top img-fluid" src="{{ site.github.url }}/{{ item.exterior-images[0] }}" alt="Main image">
-
-            <div class="card-block">
-              <div class="card-text">
-                <h4>{{ item.title }}</h4>
-                <p><strong>{{ item.price | money_without_currency }}</strong><span class="text-muted"> | {{ item.condition }}</span></p>
-              </div>
-            </div>
-            <div class="card-footer">
-              <a class="btn btn-primary"href="{{ site.github.url }}{{ item.url }}">View Details</a>
-            </div>
-          </div>
+          {% include product_card.html %}
         </div>
       {% endif %}
     {% endfor %}
@@ -76,19 +52,7 @@ title: Aircraft Sales
       {% for item in site.inventory %}
         {% if item.status == "specialty" %}
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="card">
-              <img class="card-img-top img-fluid" src="{{ site.github.url }}/{{ item.exterior-images[0] }}" alt="Main image">
-
-              <div class="card-block">
-                <div class="card-text">
-                  <h4>{{ item.title }}</h4>
-                  <p><strong>{{ item.price | money_without_currency }}</strong><span class="text-muted"> | {{ item.condition }}</span></p>
-                </div>
-              </div>
-              <div class="card-footer">
-                <a class="btn btn-primary"href="{{ site.github.url }}{{ item.url }}">View Details</a>
-              </div>
-            </div>
+            {% include product_card.html %}
           </div>
         {% endif %}
       {% endfor %}
