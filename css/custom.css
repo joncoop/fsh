@@ -250,6 +250,12 @@ footer h4 {
   width: 100%;
 }
 
+/* Typography */
+
+.light {
+    color: #666;
+}
+
 
 /* Fix unstacked nav-item problem in Bootstrap 4 alpha-2
  * http://stackoverflow.com/questions/33486653/stacked-collapsible-navbar-in-bootstrap-4
