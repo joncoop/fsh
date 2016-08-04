@@ -17,9 +17,9 @@ long-description: Available immediately, Sarasota, FL. Fire extinguisher, A/C, t
 interior: Tan leather interior
 exterior:  Black with Viper red trim
 
-main-image: img/for-sale/tim66a.jpg
+main-image: img/for-sale/0721161022.jpg
 
 secondary-images:
-  - img/for-sale/tim66a.jpg
-  - img/for-sale/tim66b.jpg
+  - img/for-sale/0721161023.jpg
+  - img/for-sale/0721161023b.jpg
 ---

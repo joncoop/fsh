@@ -18,11 +18,11 @@ long-description: |
 interior: n/a
 exterior: Black metallic with silver trim
 
-main-image: img/for-sale/0721161022.jpg
+main-image: img/for-sale/tim66a.jpg
 
 secondary-images:
-  - img/for-sale/0721161023.jpg
-  - img/for-sale/0721161023b.jpg
+  - img/for-sale/tim66a.jpg
+  - img/for-sale/tim66b.jpg
 
 logs: logs/logs-n6qh.pdf
 ---

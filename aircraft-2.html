@@ -26,6 +26,8 @@ main-image: img/for-sale/tim66a.jpg
 secondary-images:
   - img/for-sale/tim66a.jpg
   - img/for-sale/tim66b.jpg
+
+logs: logs/logs-n6qh.pdf
 ---
 
 <h2>{{ page.title }}</h2>
@@ -40,7 +42,7 @@ Ideas:
 
  - Implement arrows on sides to flip between aircraft
    (or perhaps some kind of picture-based nav)
-   
+
 -->
 
 
@@ -61,7 +63,7 @@ Ideas:
 
       <div class="tab-content">
         <div class="tab-pane fade in active" id="video" role="tabpanel">
-          <div class="media-item embed-responsive embed-responsive-16by9">
+          <div class="product-thumb embed-responsive embed-responsive-16by9">
             <iframe width="960" height="720" src="https://www.youtube.com/embed/{{ page.youtube-id }}" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
@@ -159,6 +161,12 @@ Ideas:
         <th>Details:</th>
         <td>{{ page.long-description }}</td>
       </tr>
+      {% if page.logs != null %}
+      <tr>
+        <th>Logs:</th>
+        <td><a href="{{ site.github.url }}/{{ page.logs }}">Download Logs</a> (.pdf)</td>
+      </tr>
+      {% endif %}
     </table>
   </div>
 </div>
