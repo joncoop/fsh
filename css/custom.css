@@ -175,6 +175,7 @@ footer h4 {
 
 .jumbotron .tagline {
   margin: 2.0rem 0;
+  font-size: 32px;
 }
 
 .center-bottom {
@@ -209,6 +210,30 @@ footer h4 {
 
   .jumbotron-logo {
     width: 320px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .jumbotron .tagline {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 991px) {
+  .jumbotron .tagline {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .jumbotron .tagline {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 543px) {
+  .jumbotron .tagline {
+    font-size: 16px;
   }
 }
 
