@@ -66,6 +66,12 @@ layout: secondary
         <th>Details:</th>
         <td>{{ page.long-description }}</td>
       </tr>
+      {% if page.logs != null %}
+      <tr>
+        <th>Logs:</th>
+        <td><a href="{{ site.github.url }}/{{ page.logs }}">Download Logs</a> (.pdf)</td>
+      </tr>
+      {% endif %}
     </table>
   </div>
 </div>

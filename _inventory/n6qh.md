@@ -23,4 +23,6 @@ main-image: img/for-sale/0721161022.jpg
 secondary-images:
   - img/for-sale/0721161023.jpg
   - img/for-sale/0721161023b.jpg
+
+logs: logs/logs-n6qh.pdf
 ---
