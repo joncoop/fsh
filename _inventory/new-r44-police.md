@@ -17,9 +17,12 @@ exterior:  Call to choose
 features: |
   Call to configure.
 
+exterior-images:
+  - img/for-sale/new-r44-police-ext-1.jpg
+
+interior-images:
+
 youtube-id:
 
-main-image: img/for-sale/new-r44-police-ext-1.jpg
-
-secondary-images:
+logs:
 ---

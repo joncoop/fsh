@@ -6,25 +6,90 @@ layout: secondary
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="product-thumb">
-          <a href="{{ site.github.url }}/{{ page.main-image }}" data-lightbox="gallery" alt="">
-            <img class="img-fluid" src="{{ site.github.url }}/{{ page.main-image }}" data-lightbox="gallery" alt="product image">
-          </a>
-          <i class="expand-icon fa fa-expand" aria-hidden="true"></i>
-        </div>
-      </div>
+        <ul class="nav nav-tabs">
+        {% if page.exterior-images != null %}
+        <li class="nav-item">
+          <a class="nav-link" data-target="#exterior" data-toggle="tab">Exterior</a>
+        </li>
+        {% endif %}
 
-      {% for item in page.secondary-images %}
-        <div class="col-xs-4">
-          <div class="product-thumb">
-            <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
-              <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="product image">
-            </a>
+        {% if page.interior-images != null %}
+        <li class="nav-item">
+          <a class="nav-link" data-target="#interior" data-toggle="tab">Interior</a>
+        </li>
+        {% endif %}
+
+        {% if page.youtube-id != null %}
+          <li class="nav-item">
+            <a class="nav-link active" data-target="#video" data-toggle="tab">Video</a>
+          </li>
+        {% endif %}
+      </ul>
+
+      <div class="tab-content">
+        {% if page.exterior-images != null %}
+          <div class="tab-pane fade in active" id="exterior" role="tabpanel">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="product-thumb">
+                  {% for item in page.exterior-images limit: 1 %}
+                    <a href="{{ site.github.url }}/{{ page.main-image }}" data-lightbox="gallery" alt="">
+                      <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery-exterior" alt="main image">
+                    </a>
+                    <i class="expand-icon fa fa-expand" aria-hidden="true"></i>
+                  {% endfor %}
+                </div>
+              </div>
+
+              {% for item in page.exterior-images offset: 1 %}
+                <div class="col-xs-4">
+                  <div class="product-thumb">
+                    <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
+                      <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery-exterior" alt="exterior pic">
+                    </a>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
           </div>
-        </div>
-      {% endfor %}
+        {% endif %}
+
+        {% if page.interior-images != null %}
+          <div class="tab-pane fade" id="interior" role="tabpanel">
+
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="product-thumb">
+                  {% for item in page.interior-images limit: 1 %}
+                    <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
+                      <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery-interior" alt="product image">
+                    </a>
+                    <i class="expand-icon fa fa-expand" aria-hidden="true"></i>
+                  {% endfor %}
+                </div>
+              </div>
+
+              {% for item in page.interior-images offset: 1%}
+                <div class="col-xs-4">
+                  <div class="product-thumb">
+                    <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
+                      <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery-interior" alt="interior pic">
+                    </a>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% if page.youtube-id != null %}
+          <div class="tab-pane fade" id="video" role="tabpanel">
+            <div class="product-thumb">
+              {% include youtube.html id=page.youtube-id %}
+            </div>
+          </div>
+        {% endif %}
     </div>
   </div>
 

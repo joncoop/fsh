@@ -17,15 +17,18 @@ exterior:  Call to choose
 features: |
   Call to configure.
 
-youtube-id:
-
-main-image: img/for-sale/new-r44-cadet-ext-1.jpg
-
-secondary-images:
+exterior-images:
+  - img/for-sale/new-r44-cadet-ext-1.jpg
   - img/for-sale/new-r44-cadet-ext-2.jpg
   - img/for-sale/new-r44-cadet-ext-3.jpg
   - img/for-sale/new-r44-cadet-ext-4.jpg
+
+interior-images:
   - img/for-sale/new-r44-cadet-int-1.jpg
   - img/for-sale/new-r44-cadet-int-2.jpg
   - img/for-sale/new-r44-cadet-int-3.jpg
+
+youtube-id:
+
+logs:
 ---

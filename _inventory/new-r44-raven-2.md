@@ -17,17 +17,20 @@ exterior:  Call to choose
 features: |
   Call to configure.
 
-youtube-id:
-
-main-image: img/for-sale/new-r44-raven-ext-3.jpg
-
-secondary-images:
+exterior-images:
+  - img/for-sale/new-r44-raven-ext-3.jpg
   - img/for-sale/new-r44-raven-ext-1.jpg
   - img/for-sale/new-r44-raven-ext-2.jpg
   - img/for-sale/new-r44-raven-ext-4.jpg
   - img/for-sale/new-r44-raven-ext-5.jpg
+
+interior-images:
   - img/for-sale/new-r44-raven-int-1.jpg
   - img/for-sale/new-r44-raven-int-2.jpg
   - img/for-sale/new-r44-raven-int-3.jpg
   - img/for-sale/new-r44-raven-int-4.jpg
+
+youtube-id:
+
+logs:
 ---

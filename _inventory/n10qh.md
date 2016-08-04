@@ -16,11 +16,14 @@ exterior:  Black with Viper red trim
 
 features: Available immediately, Sarasota, FL. Fire extinguisher, A/C, tinted bubble windows and windshield, Vertical card compass, Digital clock, Aspen EFD1000H Pro+ 500 MFD, Autopilot Genesys, Garmin G225B com radio, Garmin G750 GPS/Nav/Com, Kannad ELT, Garmin G350 intercom/audio control, Two Bose headsets A20, 4 Bose interface, Extra corrosion protection
 
-youtube-id:
+exterior-images:
+  - img/for-sale/n10qh-ext-1.jpg
 
-main-image: img/for-sale/n10qh-ext-1.jpg
-
-secondary-images:
+interior-images:
   - img/for-sale/n10qh-int-1.jpg
   - img/for-sale/n10qh-int-2.jpg
+
+youtube-id:
+
+logs:
 ---
