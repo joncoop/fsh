@@ -10,12 +10,13 @@ hours: 0
 price: $274,000
 seats: 2
 
-short-description: 2016 R22 Beta II
-long-description: |
-  Available in October. Call to configure.
+interior: Call to choose
+exterior:  Call to choose
 
-interior: Still time to choose
-exterior:  Still time to choose
+features: |
+  Call to configure.
+
+youtube-id:
 
 main-image: img/for-sale/generic-r22.jpg
 
