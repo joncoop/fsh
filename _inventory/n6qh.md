@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2013 R66
+title: 2013 R66 Turbine
 
 make: Robinson
 model: R66
@@ -18,11 +18,11 @@ long-description: |
 interior: Gray leather
 exterior: Black metallic with silver trim
 
-main-image: img/for-sale/tim66a.jpg
+main-image: img/for-sale/n6qh-ext-1.jpg
 
 secondary-images:
-  - img/for-sale/tim66a.jpg
-  - img/for-sale/tim66b.jpg
+  - img/for-sale/n6qh-ext-2.jpg
+  - img/for-sale/n6qh-int-1.jpg
 
 logs: logs/logs-n6qh.pdf
 ---

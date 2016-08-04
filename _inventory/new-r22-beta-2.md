@@ -1,6 +1,7 @@
 ---
 layout: aircraft
 title: 2016 R22 Beta II
+
 make: Robinson
 model: R22 Beta II
 year: 2016

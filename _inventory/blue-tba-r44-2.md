@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2016 Blue R44
+title: 2016 Blue R44 Raven II
 
 make: Robinson
 model: R44 Raven II
