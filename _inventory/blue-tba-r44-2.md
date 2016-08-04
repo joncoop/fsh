@@ -1,6 +1,7 @@
 ---
 layout: aircraft
 title: 2016 R44 Raven II
+status: available
 
 make: Robinson
 model: R44 Raven II

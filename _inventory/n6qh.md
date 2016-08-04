@@ -1,6 +1,7 @@
 ---
 layout: aircraft
 title: 2013 R66 Turbine
+status: available
 
 make: Robinson
 model: R66

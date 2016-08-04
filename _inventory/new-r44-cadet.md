@@ -1,6 +1,7 @@
 ---
 layout: aircraft
 title: 2016 R44 Cadet
+status: order
 
 make: Robinson
 model: R44 Cadet
@@ -10,15 +11,21 @@ hours: 0
 price: $319,000
 seats: 2
 
-interior: Gray velour
-exterior:  White, no trim
+interior: Call to choose
+exterior:  Call to choose
 
 features: |
-  Fire ext, heated pitot, Bubble windows, air conditioned, Vertical compass, art horiz, GTR225B com, GTX327 transponder w/mode c, 406 ELT.
+  Call to configure.
 
 youtube-id:
 
-main-image: img/for-sale/generic-r44-cadet.jpg
+main-image: img/for-sale/new-r44-cadet-ext-1.jpg
 
 secondary-images:
+  - img/for-sale/new-r44-cadet-ext-2.jpg
+  - img/for-sale/new-r44-cadet-ext-3.jpg
+  - img/for-sale/new-r44-cadet-ext-4.jpg
+  - img/for-sale/new-r44-cadet-int-1.jpg
+  - img/for-sale/new-r44-cadet-int-2.jpg
+  - img/for-sale/new-r44-cadet-int-3.jpg
 ---

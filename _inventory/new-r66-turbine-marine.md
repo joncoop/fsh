@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2016 R66 Turbine
+title: 2016 R66 Turbine Marine
 status: order
 
 make: Robinson
@@ -19,10 +19,10 @@ features: |
 
 youtube-id:
 
-main-image: img/for-sale/new-r66-ext-1.jpg
+main-image: img/for-sale/new-r66-ext-2.jpg
 
 secondary-images:
-  - img/for-sale/new-r66-ext-2.jpg
+  - img/for-sale/new-r66-ext-1.jpg
   - img/for-sale/new-r66-ext-3.jpg
   - img/for-sale/new-r66-ext-4.jpg
   - img/for-sale/new-r66-int-1.jpg
