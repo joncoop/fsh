@@ -5,7 +5,7 @@ title: 2016 R44 Raven II
 make: Robinson
 model: R44 Raven II
 year: 2016
-condition: new
+condition: New
 hours: 24
 price: $582,000
 seats: 4
