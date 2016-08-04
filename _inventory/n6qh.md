@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2013 Black R66
+title: 2013 R66
 
 make: Robinson
 model: R66

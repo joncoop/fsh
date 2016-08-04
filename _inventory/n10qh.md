@@ -1,22 +1,21 @@
 ---
 layout: aircraft
-title: 2013 Black R66
+title: 2016 R44 Raven II
 
 make: Robinson
-model: R66
+model: R44 Raven II
 year: 2016
-condition: Pre-owned
-hours: 269
-price: $745,000
-seats: 5
+condition:new
+Hours: 24
+price: $582,000
+seats: 4
 
-short-description: 2013 R66 Turbine
+short-description: 2016 Black Raven II - w/ Autopilot
 
-long-description: |
-  Air conditioning, Dual coms, Garmin 796 GPS, 4 Bose headsets, Artificial Horizon, Vertical Compass,  25 amp battery, 406 ELT, Transponder w/ Mode C.Optional, Dart emergency float system $775,000
+long-description: Available immediately, Sarasota, FL. Fire extinguisher, A/C, tinted bubble windows and windshield, Vertical card compass, Digital clock, Aspen EFD1000H Pro+ 500 MFD, Autopilot Genesys, Garmin G225B com radio, Garmin G750 GPS/Nav/Com, Kannad ELT, Garmin G350 intercom/audio control, Two Bose headsets A20, 4 Bose interface, Extra corrosion protection
 
-interior: Gray leather interior
-exterior: Black with silver trim
+interior: Tan leather interior
+exterior:  Black with Viper red trim
 
 main-image: img/for-sale/tim66a.jpg
 
