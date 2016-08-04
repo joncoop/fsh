@@ -5,8 +5,8 @@ title: 2013 R66
 make: Robinson
 model: R66
 year: 2016
-Condition:  preowned
-Hours:  269
+condition: Pre-owned
+hours:  269
 price: $745,000
 seats: 5
 
