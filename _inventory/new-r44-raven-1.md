@@ -22,7 +22,7 @@ exterior-images:
   - new-r44-raven-ext-1.jpg
   - new-r44-raven-ext-2.jpg
   - new-r44-raven-ext-3.jpg
-  - img/for-sale/new-r44-raven-ext-5.jpg
+  - new-r44-raven-ext-5.jpg
 
 interior-images:
   - new-r44-raven-int-1.jpg
