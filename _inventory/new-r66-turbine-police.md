@@ -21,6 +21,7 @@ exterior-images:
   - new-r66-police-ext-1.jpg
 
 interior-images:
+  - new-r66-police-int-1.jpg
 
 youtube-id:
 
