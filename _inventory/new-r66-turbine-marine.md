@@ -18,10 +18,8 @@ features: |
   Call to configure.
 
 exterior-images:
-  - new-r66-ext-2.jpg
-  - new-r66-ext-1.jpg
-  - new-r66-ext-3.jpg
-  - new-r66-ext-4.jpg
+- new-r66-marine-ext-1.jpg
+- new-r66-marine-ext-2.jpg
 
 interior-images:
   - new-r66-int-1.jpg
