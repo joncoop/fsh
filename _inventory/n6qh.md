@@ -18,13 +18,14 @@ features: |
   Air conditioning, Dual coms, Garmin 796 GPS, 4 Bose headsets, Artificial Horizon, Vertical Compass,  25 amp battery, 406 ELT, Transponder w/ Mode C. Optional Dart emergency float system $775,000
 
 exterior-images:
-  - img/for-sale/n6qh-ext-1.jpg
-  - img/for-sale/n6qh-ext-2.jpg
+  - n6qh-ext-1.jpg
+  - n6qh-ext-2.jpg
 
 interior-images:
-  - img/for-sale/n6qh-int-1.jpg
+  - n6qh-int-1.jpg
 
 youtube-id:
 
-logs: logs/logs-n6qh.pdf
+logs:
+  - n6qh-logs.pdf
 ---

@@ -18,7 +18,7 @@ features: |
   Call to configure.
 
 exterior-images:
-  - img/for-sale/new-r66-police-ext-1.jpg
+  - new-r66-police-ext-1.jpg
 
 interior-images:
 

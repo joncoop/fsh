@@ -33,8 +33,8 @@ layout: secondary
               <div class="col-xs-12">
                 <div class="product-thumb">
                   {% for item in page.exterior-images limit: 1 %}
-                    <a href="{{ site.github.url }}/{{ page.main-image }}" data-lightbox="gallery" alt="">
-                      <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery-exterior" alt="main image">
+                    <a href="{{ site.github.url }}/img/for-sale/{{ item }}" data-lightbox="gallery" alt="">
+                      <img class="img-fluid" src="{{ site.github.url }}/img/for-sale/{{ item }}" data-lightbox="gallery-exterior" alt="main image">
                     </a>
                     <i class="expand-icon fa fa-expand" aria-hidden="true"></i>
                   {% endfor %}
@@ -44,8 +44,8 @@ layout: secondary
               {% for item in page.exterior-images offset: 1 %}
                 <div class="col-xs-4">
                   <div class="product-thumb">
-                    <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
-                      <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery-exterior" alt="exterior pic">
+                    <a href="{{ site.github.url }}/img/for-sale/{{ item }}" data-lightbox="gallery" alt="">
+                      <img class="img-fluid" src="{{ site.github.url }}/img/for-sale/{{ item }}" data-lightbox="gallery-exterior" alt="exterior pic">
                     </a>
                   </div>
                 </div>
@@ -62,8 +62,8 @@ layout: secondary
               <div class="col-xs-12">
                 <div class="product-thumb">
                   {% for item in page.interior-images limit: 1 %}
-                    <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
-                      <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery-interior" alt="product image">
+                    <a href="{{ site.github.url }}/img/for-sale/{{ item }}" data-lightbox="gallery" alt="">
+                      <img class="img-fluid" src="{{ site.github.url }}/img/for-sale/{{ item }}" data-lightbox="gallery-interior" alt="product image">
                     </a>
                     <i class="expand-icon fa fa-expand" aria-hidden="true"></i>
                   {% endfor %}
@@ -73,8 +73,8 @@ layout: secondary
               {% for item in page.interior-images offset: 1%}
                 <div class="col-xs-4">
                   <div class="product-thumb">
-                    <a href="{{ site.github.url }}/{{ item }}" data-lightbox="gallery" alt="">
-                      <img class="img-fluid" src="{{ site.github.url }}/{{ item }}" data-lightbox="gallery-interior" alt="interior pic">
+                    <a href="{{ site.github.url }}/img/for-sale/{{ item }}" data-lightbox="gallery" alt="">
+                      <img class="img-fluid" src="{{ site.github.url }}/img/for-sale/{{ item }}" data-lightbox="gallery-interior" alt="interior pic">
                     </a>
                   </div>
                 </div>
@@ -134,7 +134,11 @@ layout: secondary
       {% if page.logs != null %}
       <tr>
         <th>Logs:</th>
-        <td><a href="{{ site.github.url }}/{{ page.logs }}">Download Logs</a> (.pdf)</td>
+        <td>
+          {% for item in page.logs %}
+            <a href="{{ site.github.url }}/logs/{{ item }}">{{ item }}</a><br>
+          {% endfor %}
+        </td>
       </tr>
       {% endif %}
     </table>

@@ -18,7 +18,7 @@ features: |
   Call to configure.
 
 exterior-images:
-  - img/for-sale/new-r44-news-ext-1.jpg
+  - new-r44-news-ext-1.jpg
 
 interior-images:
 

@@ -18,15 +18,15 @@ features: |
   Call to configure.
 
 exterior-images:
-  - img/for-sale/new-r44-cadet-ext-1.jpg
-  - img/for-sale/new-r44-cadet-ext-2.jpg
-  - img/for-sale/new-r44-cadet-ext-3.jpg
-  - img/for-sale/new-r44-cadet-ext-4.jpg
+  - new-r44-cadet-ext-1.jpg
+  - new-r44-cadet-ext-2.jpg
+  - new-r44-cadet-ext-3.jpg
+  - new-r44-cadet-ext-4.jpg
 
 interior-images:
-  - img/for-sale/new-r44-cadet-int-1.jpg
-  - img/for-sale/new-r44-cadet-int-2.jpg
-  - img/for-sale/new-r44-cadet-int-3.jpg
+  - new-r44-cadet-int-1.jpg
+  - new-r44-cadet-int-2.jpg
+  - new-r44-cadet-int-3.jpg
 
 youtube-id:
 

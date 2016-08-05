@@ -18,16 +18,16 @@ features: |
   Call to configure.
 
 exterior-images:
-  - img/for-sale/new-r22-beta-2-ext-1.jpg
-  - img/for-sale/new-r22-beta-2-ext-2.jpg
-  - img/for-sale/new-r22-beta-2-ext-3.jpg
-  - img/for-sale/new-r22-beta-2-ext-4.jpg
-  - img/for-sale/new-r22-beta-2-ext-5.jpg
+  - new-r22-beta-2-ext-1.jpg
+  - new-r22-beta-2-ext-2.jpg
+  - new-r22-beta-2-ext-3.jpg
+  - new-r22-beta-2-ext-4.jpg
+  - new-r22-beta-2-ext-5.jpg
 
 interior-images:
-  - img/for-sale/new-r22-beta-2-int-1.jpg
-  - img/for-sale/new-r22-beta-2-int-2.jpg
-  - img/for-sale/new-r22-beta-2-int-3.jpg
+  - new-r22-beta-2-int-1.jpg
+  - new-r22-beta-2-int-2.jpg
+  - new-r22-beta-2-int-3.jpg
 
 youtube-id:
 
