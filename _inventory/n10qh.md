@@ -14,7 +14,8 @@ seats: 4
 interior: Tan leather interior
 exterior:  Black with Viper red trim
 
-features: Available immediately, Sarasota, FL. Fire extinguisher, A/C, tinted bubble windows and windshield, Vertical card compass, Digital clock, Aspen EFD1000H Pro+ 500 MFD, Autopilot Genesys, Garmin G225B com radio, Garmin G750 GPS/Nav/Com, Kannad ELT, Garmin G350 intercom/audio control, Two Bose headsets A20, 4 Bose interface, Extra corrosion protection
+features: |
+  Fire extinguisher, A/C, tinted bubble windows and windshield, Vertical card compass, Digital clock, Aspen EFD1000H Pro+ 500 MFD, Autopilot Genesys, Garmin G225B com radio, Garmin G750 GPS/Nav/Com, Kannad ELT, Garmin G350 intercom/audio control, Two Bose headsets A20, 4 Bose interface, Extra corrosion protection
 
 exterior-images:
   - n10qh-ext-1.jpg
