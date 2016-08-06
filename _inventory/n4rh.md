@@ -15,7 +15,7 @@ interior: Gray leather
 exterior: Volcano red with gold trim
 
 features: |
-  Call
+  Air conditioned, 9 hole panel, AI, DG, Pilot side console Garmin 530, dual coms, ADSB in and out,Vert comp,406 ELT,Avidyne TAS, Flightstrean 210, Rear center console. Located Sarasota, FL
 
 exterior-images:
   - n4rh-ext-1.jpg
