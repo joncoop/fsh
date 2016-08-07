@@ -36,17 +36,7 @@ smoothScroll.init({
 <!-- Bootstrap features -->
 <script>
 /* Tabs */
-$('#video a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
-
-$('#interior a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
-
-$('#exterior a').click(function (e) {
+$('#interior a', '#exterior', '#video a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
@@ -84,19 +74,7 @@ $('.map').on('click', onMapClickHandler);
 /* Collapse navbar when clicking away from links.
  * http://stackoverflow.com/questions/21496304/bootstrap-collapse-component-not-closing-menu-on-clicking-away
  */
- $(document).on('click',function(e){
-   if($('#mainNav').hasClass('in')){
-     $('.collapse').collapse('hide');
-   }
- })
-
- $("#scrollArrow").on('click',function(e){
-   if($('#mainNav').hasClass('in')){
-     $('.collapse').collapse('hide');
-   }
- })
-
- $("#brand").on('click',function(e){
+ $(document, "#scrollArrow", "#brand").on('click',function(e){
    if($('#mainNav').hasClass('in')){
      $('.collapse').collapse('hide');
    }
