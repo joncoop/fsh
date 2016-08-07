@@ -21,6 +21,18 @@
     feed.run();
 </script>
 
+<!-- Smooth Scroll (https://github.com/cferdinandi/smooth-scroll) -->
+<script src="{{ site.github.url }}/js/smooth-scroll.min.js"></script>
+
+<script>
+smoothScroll.init({
+    speed: 700, // Integer. How fast to complete the scroll in milliseconds
+    easing: 'easeInOutQuad', // Easing pattern to use
+    updateURL: false, // Boolean. If true, update the URL hash on scroll
+});
+</script>
+
+
 <!-- Bootstrap features -->
 <script>
 /* Tabs */
@@ -38,32 +50,11 @@ $('#exterior a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
 })
-
 </script>
-
 
 
 <!-- Custom JavaScript -->
 <script>
-/* Smooth scroll to selected anchor
- * https://css-tricks.com/snippets/jquery/smooth-scrolling/
- */
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
-
 /* Disable Google Maps scrolling
  * See http://stackoverflow.com/a/25904582/1607849
  * Disable scroll zooming and bind back the click event
