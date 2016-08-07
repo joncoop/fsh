@@ -5,7 +5,6 @@
 <html>
 <head>
 <title></title>
-<link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
@@ -19,5 +18,14 @@
 
 </body>
 
-{% include javascript.html %}
+<!-- Instafeed (https://github.com/stevenschobert/instafeed.js) -->
+<script src="{{ site.github.url }}/js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        accessToken: '687620506.4455cee.3823256713274efab9c7e9e683251315',
+        clientId: '4455ceec894a4597a65aa7f5a99ccbe2'
+    });
+    feed.run();
+</script>
 </html>
