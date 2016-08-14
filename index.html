@@ -110,7 +110,7 @@ layout: home
           </div>
 
           <div class="col-xs-12">
-            <a href="https://www.youtube.com/channel/UCQjTVU2Y3SulX4XzVPKpccg" class="btn btn-primary">View All</a>
+            <a href="{{ site.youtube }}" class="btn btn-primary">View All</a>
           </div>
         </div>
       </div>
@@ -126,16 +126,16 @@ layout: home
 
     <div class="row">
       <div class="col-xs-12 col-md-6">
-        <p>You can contact us via the form on this page, by phone, or by sending email to <a href="mailto:info@floridasuncoasthelicopters.com">info@floridasuncoasthelicopters.com</a>. We can't wait to hear from you!</p>
+        <p>You can contact us via the form on this page, by phone, or by sending email to <a href="mailto:{{ site.email }}">{{ site.email }}</a>. We can't wait to hear from you!</p>
 
         <a href="tel:+1-{{ site.phone }}" class="btn btn-lg btn-info"><i class="fa fa-phone" aria-hidden="true"></i> {{ site.phone }}</a>
         <br><br>
 
         <h4>Social</h4>
-        <a href="https://www.facebook.com/Florida-Suncoast-Helicopters-167594603293714/"><img class="social-icon" src="img/social/facebook.png" alt="Follow on Facebook"></a>
-        <a href="https://www.instagram.com/fshelicopters/"><img class="social-icon" src="img/social/instagram.png" alt="Follow on Instagram"></a>
-        <a href="https://twitter.com/suncoastheli"><img class="social-icon" src="img/social/twitter.png" alt="Follow on Twitter"></a>
-        <a href="https://www.youtube.com/channel/UCQjTVU2Y3SulX4XzVPKpccg"><img class="social-icon" src="img/social/youtube.png" alt="Subscribe on YouTube"></a>
+        <a href="{{ site.facebook }}"><img class="social-icon" src="img/social/facebook.png" alt="Follow on Facebook"></a>
+        <a href="{{ site.instagram }}"><img class="social-icon" src="img/social/instagram.png" alt="Follow on Instagram"></a>
+        <a href="{{ site.twitter }}"><img class="social-icon" src="img/social/twitter.png" alt="Follow on Twitter"></a>
+        <a href="{{ site.youtube }}"><img class="social-icon" src="img/social/youtube.png" alt="Subscribe on YouTube"></a>
       </div>
 
       <div class="col-xs-12 col-md-6">

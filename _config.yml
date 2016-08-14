@@ -16,6 +16,12 @@ url: "floridasuncoasthelicopters.com"
 email: info@floridasuncoasthelicopters.com
 phone: 941-355-1259
 
+# social
+facebook: https://www.facebook.com/Florida-Suncoast-Helicopters-167594603293714/
+instagram: https://www.instagram.com/fshelicopters/
+twitter: https://twitter.com/suncoastheli
+youtube: https://www.youtube.com/c/Floridasuncoasthelicopters
+
 # Build settings
 markdown: kramdown
 
