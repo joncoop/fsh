@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2016 R44 Raven II
+title: 2015 R44 Raven II
 status: available # available, order, special
 
 make: Robinson
@@ -14,7 +14,7 @@ seats: 4
 interior: Gray velour seats
 exterior: Dark continental blue with silver trim
 
-features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT.  Will export!
+features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Will export!
 
 
 exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
