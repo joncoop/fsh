@@ -25,7 +25,7 @@ interior-images:
   - n4rh-int-1.jpg
   - n4rh-int-2.jpg
 
-youtube-id:
+youtube-id: v_NbOH7xWgY
 
 logs:
   - n4rh-logs-airframe.pdf
