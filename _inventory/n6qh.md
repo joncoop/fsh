@@ -24,7 +24,7 @@ exterior-images:
 interior-images:
   - n6qh-int-1.jpg
 
-youtube-id:
+youtube-id: yDjZW6BGUH4
 
 logs:
   - n6qh-logs.pdf

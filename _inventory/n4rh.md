@@ -15,7 +15,7 @@ interior: Gray leather
 exterior: Volcano red with gold trim
 
 features: |
-  Air conditioned, 9 hole panel, AI, DG, Pilot side console Garmin 530, dual coms, ADSB in and out,Vert comp,406 ELT,Avidyne TAS, Flightstrean 210, Rear center console. Located Sarasota, FL
+  Air conditioned, 9 hole panel, AI, DG, Pilot side console Garmin 530, dual coms, ADSB in and out,Vert comp,406 ELT,Avidyne TAS, Flightstream 210, Rear center console. Located Sarasota, FL
 
 exterior-images:
   - n4rh-ext-1.jpg
@@ -25,7 +25,7 @@ interior-images:
   - n4rh-int-1.jpg
   - n4rh-int-2.jpg
 
-youtube-id: v_NbOH7xWgY
+youtube-id: RUiwhuYKTUw
 
 logs:
   - n4rh-logs-airframe.pdf
