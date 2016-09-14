@@ -23,7 +23,7 @@ interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n20my-int-1.jpg
   - n20my-int-2.jpg
 
-youtube-id: fZsCDTCWBfU
+youtube-id: I5DzmwMWins
 
 logs:
   # if combined
