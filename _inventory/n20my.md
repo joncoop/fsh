@@ -8,7 +8,7 @@ model: R44 Raven II
 year: 2016
 condition: New
 hours: 24
-price: Call # don’t forget $ and commas, use ‘Call’ if no price listed
+price: $494,500 # don’t forget $ and commas, use ‘Call’ if no price listed
 seats: 4
 
 interior: Tan leather interior
