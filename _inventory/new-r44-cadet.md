@@ -8,7 +8,7 @@ model: R44 Cadet
 year: 2016
 condition: New
 hours: 0
-price: $319,000
+price: Call to configure
 seats: 2
 
 interior: Call to choose

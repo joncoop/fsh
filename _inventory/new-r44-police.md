@@ -8,7 +8,7 @@ model: R44 Police
 year: 2016
 condition: New
 hours: 0
-price: Call
+price: Call to configure
 seats: 4
 
 interior: Call to choose

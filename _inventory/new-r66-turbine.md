@@ -8,7 +8,7 @@ model: R66 Turbine
 year: 2016
 condition: New
 hours: 0
-price: Call
+price: Call to configure
 seats: 5
 
 interior: Call to choose

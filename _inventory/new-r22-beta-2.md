@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2016 R22 Beta II
+title: 2017 R22 Beta II
 status: order
 
 make: Robinson
@@ -8,7 +8,7 @@ model: R22 Beta II
 year: 2016
 condition: New
 hours: 0
-price: $274,000
+price: Call to configure
 seats: 2
 
 interior: Call to choose

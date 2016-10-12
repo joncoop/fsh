@@ -8,7 +8,7 @@ model: R44 Clipper
 year: 2016
 condition: New
 hours: 0
-price: Call
+price: Call to configure
 seats: 2
 
 interior: Call to choose
