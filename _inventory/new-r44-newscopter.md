@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2016 R44 Newscopter
+title: 2017 R44 Newscopter
 status: specialty
 
 make: Robinson

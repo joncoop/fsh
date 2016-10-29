@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2016 R66 Turbine Marine
+title: 2017 R66 Turbine Marine
 status: order
 
 make: Robinson

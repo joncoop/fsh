@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2016 R44 Cadet
+title: 2017 R44 Cadet
 status: order
 
 make: Robinson
