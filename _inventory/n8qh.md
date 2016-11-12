@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2015 R44 R66
+title: 2015 R66
 status: available
 
 make: Robinson
