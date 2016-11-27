@@ -1,7 +1,7 @@
 ---
 layout: aircraft
 title: 2016 R44 Raven II
-status: available # available, order, special
+status: sold # available, order, special, sold (doesn't show)
 
 make: Robinson
 model: R44 Raven II
@@ -23,7 +23,7 @@ interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n20my-int-1.jpg
   - n20my-int-2.jpg
 
-youtube-id: I5DzmwMWins
+youtube-id: I5DzmwMWins # the part after v= in the URL, can be left blank
 
 logs:
   # if combined
