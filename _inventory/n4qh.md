@@ -25,7 +25,7 @@ exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
 interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n4qh-int-1.jpg
 
-youtube-id: # the part after v= in the URL, can be left blank
+youtube-id: wapfzZa85pE # the part after v= in the URL, can be left blank
 
 logs:
 ---
