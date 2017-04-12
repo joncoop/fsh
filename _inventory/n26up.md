@@ -14,7 +14,7 @@ seats: 4
 interior: Tan leather
 exterior: Black metallic with gold trim
 
-features: Air conditioned, Dart floats, Artificial horizon,Transponder GTX 330 ADSB in and out, GPS Garmin 420. GDL 88, GDL 39, vertical compass,5 Bose headset, Garmin 796 mounted, Fire extinguisher. Beautiful ship all maintenance by FAA 145 shop.
+features: Air conditioned, Dart floats, Artificial horizon, Transponder GTX 330 ADSB in and out, GPS Garmin 420. GDL 88, GDL 39, vertical compass,5 Bose headset, Garmin 796 mounted, Fire extinguisher. Beautiful ship all maintenance by FAA 145 shop.
 
 exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
   - n26up-ext-1.jpg
