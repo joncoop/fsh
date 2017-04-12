@@ -1,18 +1,18 @@
 ---
 layout: aircraft
-title: 2015 R44 Raven II
+title: 2013 R66
 status: available # available, order, special
 
 make: Robinson
-model: R44 Raven II
-year: 2015
+model: R66
+year: 2013
 condition: Pre-owned
 hours: 72
 price: $440,000 # don’t forget $ and commas, use ‘Call’ if no price listed
 seats: 4
 
-interior: Dark continental blue with silver trim
-exterior: Gray velour
+interior: Tan leather
+exterior: Black
 
 features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Will export!
 
