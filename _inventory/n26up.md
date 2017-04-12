@@ -7,14 +7,14 @@ make: Robinson
 model: R66
 year: 2013
 condition: Pre-owned
-hours: 72
-price: $440,000 # don’t forget $ and commas, use ‘Call’ if no price listed
+hours: 170
+price: $749,000 # don’t forget $ and commas, use ‘Call’ if no price listed
 seats: 4
 
 interior: Tan leather
-exterior: Black
+exterior: Black metallic with gold trim
 
-features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Will export!
+features: Air conditioned, Dart floats, Artificial horizon,Transponder GTX 330 ADSB in and out, GPS Garmin 420. GDL 88, GDL 39, vertical compass,5 Bose headset, Garmin 796 mounted, Fire extinguisher. Beautiful ship all maintenance by FAA 145 shop.
 
 exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
   - n26up-ext-1.jpg
