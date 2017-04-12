@@ -18,12 +18,15 @@ features: A/C, heated pitot, bubble windows, vertical card compass, artificial h
 
 
 exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
-- n4qh-ext-1.jpg
-- n4qh-ext-2.jpg
-
+  - n4qh-ext-1.jpg
+  - n4qh-ext-2.jpg
+  - n4qh-ext-3.jpg
+  - n4qh-ext-4.jpg
 
 interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n4qh-int-1.jpg
+  - n4qh-int-2.jpg
+  - n4qh-int-3.jpg
 
 youtube-id: wapfzZa85pE # the part after v= in the URL, can be left blank
 
