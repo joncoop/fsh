@@ -6,22 +6,22 @@ layout: secondary
 
 <div class="row">
   <div class="col-xs-12 col-md-6">
-        <ul class="nav nav-tabs">
-        {% if page.exterior-images != null %}
-        <li class="nav-item">
-          <a class="nav-link active" data-target="#exterior" data-toggle="tab">Exterior</a>
-        </li>
-        {% endif %}
-
-        {% if page.interior-images != null %}
-        <li class="nav-item">
-          <a class="nav-link" data-target="#interior" data-toggle="tab">Interior</a>
-        </li>
-        {% endif %}
-
+      <ul class="nav nav-tabs">
         {% if page.youtube-id != null %}
           <li class="nav-item">
             <a class="nav-link" data-target="#video" data-toggle="tab">Video</a>
+          </li>
+        {% endif %}
+
+        {% if page.exterior-images != null %}
+          <li class="nav-item">
+            <a class="nav-link active" data-target="#exterior" data-toggle="tab">Exterior</a>
+          </li>
+        {% endif %}
+
+        {% if page.interior-images != null %}
+          <li class="nav-item">
+            <a class="nav-link" data-target="#interior" data-toggle="tab">Interior</a>
           </li>
         {% endif %}
       </ul>
@@ -32,6 +32,10 @@ layout: secondary
             <div class="row">
               <div class="col-xs-12">
                 <div class="product-thumb">
+                  {% if page.status == "sold" %}
+                    <div class="corner-ribbon">Sold</div>
+                  {% endif %}
+
                   {% for item in page.exterior-images limit: 1 %}
                     <a href="{{ site.github.url }}/inventory/pics/{{ item }}" data-lightbox="gallery" alt="">
                       <img class="img-fluid" src="{{ site.github.url }}/inventory/pics/{{ item }}" data-lightbox="gallery-exterior" alt="main image">
@@ -61,6 +65,10 @@ layout: secondary
             <div class="row">
               <div class="col-xs-12">
                 <div class="product-thumb">
+                  {% if page.status == "sold" %}
+                    <div class="corner-ribbon">Sold</div>
+                  {% endif %}
+
                   {% for item in page.interior-images limit: 1 %}
                     <a href="{{ site.github.url }}/inventory/pics/{{ item }}" data-lightbox="gallery" alt="">
                       <img class="img-fluid" src="{{ site.github.url }}/inventory/pics/{{ item }}" data-lightbox="gallery-interior" alt="product image">
@@ -86,6 +94,10 @@ layout: secondary
         {% if page.youtube-id != null %}
           <div class="tab-pane fade" id="video" role="tabpanel">
             <div class="product-thumb">
+              {% if page.status == "sold" %}
+                <div class="corner-ribbon">Sold</div>
+              {% endif %}
+
               {% include youtube.html id=page.youtube-id %}
             </div>
           </div>

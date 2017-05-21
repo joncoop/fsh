@@ -7,23 +7,32 @@ make: Robinson
 model: R44 Raven II
 year: 2015
 condition: New
-hours: 52
-price: $457,000 # don’t forget $ and commas, use ‘Call’ if no price listed
+hours: 70
+price: $449,000 # don’t forget $ and commas, use ‘Call’ if no price listed
 seats: 4
 
 interior: Gray velour seats
 exterior: Dark continental blue with silver trim
 
-features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Will export!
+features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Also avaialble with cargo hook and Zatz camera mount. Will export!
 
 exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
+<<<<<<< HEAD
 - n4qh-ext-1.jpg
 - n4qh-ext-2.jpg
+=======
+  - n4qh-ext-1.jpg
+  - n4qh-ext-2.jpg
+  - n4qh-ext-3.jpg
+  - n4qh-ext-4.jpg
+>>>>>>> 5d1255891dad678d34bbf068f644e58dbb74b4d7
 
 interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n4qh-int-1.jpg
+  - n4qh-int-2.jpg
+  - n4qh-int-3.jpg
 
-youtube-id: # the part after v= in the URL, can be left blank
+youtube-id: wapfzZa85pE # the part after v= in the URL, can be left blank
 
 logs:
 ---

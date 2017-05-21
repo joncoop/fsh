@@ -8,7 +8,7 @@ model: R66
 year: 2012
 condition: Pre-owned
 hours:  382
-price: Call # don’t forget $ and commas, use ‘Call’ if no price listed
+price: $684,900 # don’t forget $ and commas, use ‘Call’ if no price listed
 seats: 5
 
 interior: Gray leather

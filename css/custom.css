@@ -319,3 +319,26 @@ footer h4 {
         margin: 0;
     }
 }
+
+
+/* Corner ribbon */
+.card,
+.product-thumb {
+  overflow: hidden;
+}
+
+.corner-ribbon {
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 10px;
+  left: -70px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  font-weight: bold;
+  -webkit-transform: rotate(-45deg);
+  z-index: 999;
+}
