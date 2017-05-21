@@ -1,7 +1,7 @@
 ---
 layout: aircraft
 title: 2015 R44 Raven II
-status: available # available, order, special, sold (doesn't show)
+status: sold # available, order, special, sold (doesn't show)
 
 make: Robinson
 model: R44 Raven II
@@ -16,11 +16,9 @@ exterior: Dark continental blue with silver trim
 
 features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Will export!
 
-
 exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
 - n4qh-ext-1.jpg
 - n4qh-ext-2.jpg
-
 
 interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n4qh-int-1.jpg
