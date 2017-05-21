@@ -17,15 +17,10 @@ exterior: Dark continental blue with silver trim
 features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Also avaialble with cargo hook and Zatz camera mount. Will export!
 
 exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
-<<<<<<< HEAD
-- n4qh-ext-1.jpg
-- n4qh-ext-2.jpg
-=======
   - n4qh-ext-1.jpg
   - n4qh-ext-2.jpg
   - n4qh-ext-3.jpg
   - n4qh-ext-4.jpg
->>>>>>> 5d1255891dad678d34bbf068f644e58dbb74b4d7
 
 interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n4qh-int-1.jpg
