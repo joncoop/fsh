@@ -20,9 +20,11 @@ title: Aircraft Sales
 
   <div class="row">
     {% for item in site.inventory %}
+      {% if item.status == "available" or item.status =="sold"%}
         <div class="col-xs-12 col-sm-6 col-md-4">
           {% include product_card.html %}
         </div>
+        {% endif %}
     {% endfor %}
   </div>
 </section>
