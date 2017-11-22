@@ -1,7 +1,7 @@
 ---
 layout: aircraft
 title: 2015 R66
-status: available # available, order, special, sold (doesn't show)
+status: unavailable # available, order, special, sold (doesn't show)
 
 make: Robinson
 model: R66

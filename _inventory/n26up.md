@@ -1,7 +1,7 @@
 ---
 layout: aircraft
 title: 2013 R66
-status: available # available, order, special
+status: sold # available, order, special
 
 make: Robinson
 model: R66
