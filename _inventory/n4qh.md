@@ -1,20 +1,21 @@
 ---
 layout: aircraft
 title: 2015 R44 Raven II
-status: sold # available, order, special, sold (doesn't show)
+status: available # available, order, special
 
 make: Robinson
 model: R44 Raven II
 year: 2015
 condition: New
-hours: 70
-price: $449,000 # don’t forget $ and commas, use ‘Call’ if no price listed
+hours: 52
+price: $457,000 # don’t forget $ and commas, use ‘Call’ if no price listed
 seats: 4
 
 interior: Gray velour seats
 exterior: Dark continental blue with silver trim
 
-features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Also avaialble with cargo hook and Zatz camera mount. Will export!
+features: A/C, heated pitot, bubble windows, vertical card compass, artificial horizon, Kannad 406 ELT. Will export!
+
 
 exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
   - n4qh-ext-1.jpg
@@ -22,12 +23,13 @@ exterior-images: # tailnum-ext-#.jpg (must be 16x9 ratio)
   - n4qh-ext-3.jpg
   - n4qh-ext-4.jpg
 
+
 interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n4qh-int-1.jpg
   - n4qh-int-2.jpg
   - n4qh-int-3.jpg
 
-youtube-id: wapfzZa85pE # the part after v= in the URL, can be left blank
+youtube-id: # the part after v= in the URL, can be left blank
 
 logs:
 ---
