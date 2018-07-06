@@ -1,11 +1,11 @@
 ---
 layout: aircraft
-title: 2017 R44 Newscopter
+title: 2018 R44 Newscopter
 status: specialty # available, order, special, sold (doesn't show)
 
 make: Robinson
 model: R44 Newscopter
-year: 2016
+year: 2018
 condition: New
 hours: 0
 price: Call to configure # don’t forget $ and commas, use ‘Call’ if no price listed
