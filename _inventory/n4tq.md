@@ -25,10 +25,7 @@ interior-images: # tailnum-int-#.jpg (must be 16x9 ratio)
   - n4tq-int-1.jpg
   - n4tq-int-2.jpg
 
-youtube-id: bZb-ztL_2nY # the part after v= in the URL, can be left blank
+youtube-id:  # the part after v= in the URL, can be left blank
 
 logs:
-  - n4tq-logs.pdf # if combined
-  - n4tq-logs-airframe.pdf
-  - n4tq-logs-engine.pdf
 ---
