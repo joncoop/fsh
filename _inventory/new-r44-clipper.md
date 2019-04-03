@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2018 R44 Clipper
+title: 2019 R44 Clipper
 status: order # available, order, special, sold (doesn't show)
 
 make: Robinson

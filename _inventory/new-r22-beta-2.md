@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2018 R22 Beta II
+title: 2019 R22 Beta II
 status: order # available, order, special, sold (doesn't show)
 
 make: Robinson
