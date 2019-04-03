@@ -1,6 +1,6 @@
 ---
 layout: aircraft
-title: 2018 R66 Turbine
+title: 2019 R66 Turbine
 status: order # available, order, special, sold (doesn't show)
 
 make: Robinson
