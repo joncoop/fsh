@@ -10,7 +10,8 @@ title: Florida Suncoast Helicopters
 description: > # this means to ignore newlines until "baseurl:"
   Florida Suncoast Helicopters is Sarasota’s longest established and most trusted helicopter operation and also one of the largest helicopter operations in all of Florida. Suncoast Helicopters is also consistently one of Robinson’s largest dealers in the World. We offer competitive, unparalleled support whether it be for sightseeing tours, flight training or the purchase of a new helicopter. We also are a FAA 145 approved maintenance shop for all your Robinson needs.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "floridasuncoasthelicopters.com"
+#url: "floridasuncoasthelicopters.com"
+url: "https://joncoop.github.io/fsh/"
 
 # business info
 email: info@floridasuncoasthelicopters.com
